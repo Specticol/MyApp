@@ -10,7 +10,7 @@ function Header() {
         <Link to="/ScheduleI" className={styles.link}>Schedule I</Link>
 
       </div>
-      <div className={styles.logo}>MyApp</div>
+      <div className={styles.logo}>Specticol</div>
     </nav>
   )
 }
