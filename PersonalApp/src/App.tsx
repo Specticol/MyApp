@@ -2,6 +2,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Header from "./Header";
 import Home from "./pages/Home";
 import Smt from "./pages/Smt";
+import ScheduleI from "./pages/ScheduleI";
 
 
 const Root = () => {
@@ -33,6 +34,10 @@ const App = () => {
         {
           path: "smt",
           element: <Smt />
+        },
+        {
+          path: "ScheduleI",
+          element: <ScheduleI />
         }
       ]
     }
