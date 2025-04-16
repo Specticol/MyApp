@@ -43,7 +43,7 @@ export default function ScheduleI() {
 
                 <label className={styles.label}>Base Price</label>
                 <input
-                    type="number"
+                    type="text"
                     className={styles.input}
                     value={price}
                     onChange={(e) => setPrice(Number(e.target.value))}
@@ -52,7 +52,7 @@ export default function ScheduleI() {
 
                 <label className={styles.label}>Amount</label>
                 <input
-                    type="number"
+                    type="text"
                     className={styles.input}
                     value={amount}
                     onChange={(e) => setAmount(Number(e.target.value))}
