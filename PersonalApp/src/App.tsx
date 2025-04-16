@@ -3,23 +3,16 @@ import Header from "./Header";
 import Home from "./pages/Home";
 import Smt from "./pages/Smt";
 import ScheduleI from "./pages/ScheduleI";
-
+import { Analytics } from "@vercel/analytics/react"; // ✅ Import Analytics
 
 const Root = () => {
   return (
-    <div >
+    <div>
       <Header />
       <Outlet />
-
     </div>
-
   );
-}
-
-
-
-
-
+};
 
 const App = () => {
   const router = createBrowserRouter([
@@ -44,10 +37,11 @@ const App = () => {
   ]);
 
   return (
-    <div>
+    <>
       <RouterProvider router={router} />
-    </div>
-  )
-}
+      <Analytics /> {/* ✅ Place this here so it's always loaded */}
+    </>
+  );
+};
 
-export default App;  
+export default App;
