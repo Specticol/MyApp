@@ -8,7 +8,7 @@ export default function Smt() {
 
     return (
         <div className={styles.calculator}>
-            <h2 className={styles.heading}>Super Market Together</h2>
+            <h2 className={styles.heading}>Super Market</h2>
             <p className={styles.subtitle}>Price Calculator</p>
 
             <input
