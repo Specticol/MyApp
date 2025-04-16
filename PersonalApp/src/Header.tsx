@@ -6,7 +6,7 @@ function Header() {
     <nav className={styles.navbar}>
       <div className={styles.links}>
         <Link to="/" className={styles.link}>Home</Link>
-        <Link to="/smt" className={styles.link}>Super Market Together</Link>
+        <Link to="/smt" className={styles.link}>Super Market</Link>
         <Link to="/ScheduleI" className={styles.link}>Schedule I</Link>
 
       </div>
