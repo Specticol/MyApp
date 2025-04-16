@@ -1,0 +1,28 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+  
+  p {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    color: #dddddd;
+  }
+  
+  .feedback {
+    font-style: italic;
+    color: #aaaaff;
+  }
+  
