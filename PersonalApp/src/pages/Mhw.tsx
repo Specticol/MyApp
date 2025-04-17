@@ -80,7 +80,7 @@ export default function Mhw() {
                 filteredSkills.map((skill) => (
                     <div key={skill.id} className={styles.skillCard}>
                         <p><strong>Name:</strong> {skill.name}</p>
-                        <p><strong>Kind:</strong> {skill.kind}</p>
+                        <p><strong>Type:</strong> {skill.kind}</p>
                         <p><strong>Max Lv:</strong> {skill.ranks.length}</p>
                         <p><strong>Description:</strong> {skill.description || "No description"}</p>
                     </div>
