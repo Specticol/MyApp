@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import data from "../Wilds.json";
-import styles from "./Mhw.module.css";
+import styles from "../css/Mhw.module.css";
 
 
 export interface Skills {
