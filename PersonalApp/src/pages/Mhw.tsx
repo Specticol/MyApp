@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
-import data from "../Wilds.json"; // adjust path if needed
+import data from "../Wilds.json";
+import styles from "./Mhw.module.css";
+
 
 export interface Skills {
     name: string;
@@ -39,10 +41,10 @@ export default function Mhw() {
             ...item,
             kind: item.kind as Kind, // 👈 Force the 'kind' field to match the enum
         }));
-    
+
         setSkills(mappedData);
     }, []);
-    
+
 
     const filteredSkills = skills.filter((skill) => {
         const matchesSearch = skill.name.toLowerCase().includes(search.toLowerCase());
@@ -50,21 +52,21 @@ export default function Mhw() {
         return matchesSearch && matchesKind;
     });
 
-    return (
-        <>
-            <h2>Monster Hunter Skills</h2>
 
-            {/* Search Bar */}
+    // Then in your return:
+    return (
+        <div className={styles.container}>
+            <h2 className={styles.heading}>Monster Hunter Skills</h2>
+
             <input
                 type="text"
+                className={styles.searchBar}
                 placeholder="Search by name..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                style={{ padding: "0.5rem", marginBottom: "1rem", width: "100%" }}
             />
 
-            {/* Filter Buttons */}
-            <div style={{ marginBottom: "1rem" }}>
+            <div className={styles.filterButtons}>
                 <button onClick={() => setFilterKind("all")}>All</button>
                 <button onClick={() => setFilterKind(Kind.Armor)}>Armor</button>
                 <button onClick={() => setFilterKind(Kind.Weapon)}>Weapon</button>
@@ -72,31 +74,18 @@ export default function Mhw() {
                 <button onClick={() => setFilterKind(Kind.Set)}>Set</button>
             </div>
 
-            {/* Skill List */}
-            <div>
-                {filteredSkills.map((skill) => (
-                    <div
-                        key={skill.id}
-                        style={{
-                            marginBottom: "1rem",
-                            borderBottom: "1px solid #ccc",
-                            paddingBottom: "0.5rem",
-                        }}
-                    >
+            {filteredSkills.length === 0 ? (
+                <p className={styles.noResults}>No skills found.</p>
+            ) : (
+                filteredSkills.map((skill) => (
+                    <div key={skill.id} className={styles.skillCard}>
                         <p><strong>Name:</strong> {skill.name}</p>
                         <p><strong>Kind:</strong> {skill.kind}</p>
                         <p><strong>Max Lv:</strong> {skill.ranks.length}</p>
                         <p><strong>Description:</strong> {skill.description || "No description"}</p>
-                        <ul>
-                            {skill.ranks.map((rank) => (
-                                <li key={rank.id}>
-                                    <strong>Lv {rank.level}:</strong> {rank.description}
-                                </li>
-                            ))}
-                        </ul>
                     </div>
-                ))}
-            </div>
-        </>
+                ))
+            )}
+        </div>
     );
 }
