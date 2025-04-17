@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Smt from "./pages/Smt";
 import ScheduleI from "./pages/ScheduleI";
 import { Analytics } from "@vercel/analytics/react"; // ✅ Import Analytics
+import Mhw from "./pages/Mhw";
 
 const Root = () => {
   return (
@@ -31,6 +32,10 @@ const App = () => {
         {
           path: "ScheduleI",
           element: <ScheduleI />
+        },
+        {
+          path:"Mhw",
+          element:<Mhw />
         }
       ]
     }

@@ -8,6 +8,7 @@ function Header() {
         <Link to="/" className={styles.link}>Home</Link>
         <Link to="/smt" className={styles.link}>Super Market</Link>
         <Link to="/ScheduleI" className={styles.link}>Schedule I</Link>
+        <Link to="/Mhw" className={styles.link}>Mhw</Link>
 
       </div>
       <div className={styles.logo}>Specticol</div>
