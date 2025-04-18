@@ -1,4 +1,4 @@
-import { useParams, useNavigate, Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import data from "../Wilds.json";
 import { Skills, Kind } from "../interface";
 import styles from "../css/SkillDetail.module.css";
@@ -6,7 +6,6 @@ import styles from "../css/SkillDetail.module.css";
 
 export default function SkillDetail() {
     const { id } = useParams();
-    const navigate = useNavigate();
 
     const skillId = parseInt(id || "", 10);
 

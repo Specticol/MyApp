@@ -6,6 +6,7 @@ import ScheduleI from "./pages/ScheduleI";
 import { Analytics } from "@vercel/analytics/react"; // ✅ Import Analytics
 import Mhw from "./pages/Mhw";
 import SkillDetail from "./pages/SkillDetail";
+import Footer from "./pages/Footer";
 
 
 const Root = () => {
@@ -13,6 +14,7 @@ const Root = () => {
     <div>
       <Header />
       <Outlet />
+      <Footer />
     </div>
   );
 };
