@@ -1,0 +1,52 @@
+.container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #00ffa6;
+  }
+  
+  .detailItem {
+    margin-bottom: 1rem;
+  }
+  
+  .detailItem strong {
+    color: #00ffa6;
+  }
+  
+  .rankList {
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+  }
+  
+  .rankItem {
+    background-color: #2e2e2e;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border-left: 4px solid #00ffa6;
+  }
+  
+  .backLink {
+    display: inline-block;
+    margin-top: 2rem;
+    color: #00ffa6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  .backLink:hover {
+    color: #66ffd1;
+  }
+  

@@ -5,6 +5,8 @@ import Smt from "./pages/Smt";
 import ScheduleI from "./pages/ScheduleI";
 import { Analytics } from "@vercel/analytics/react"; // ✅ Import Analytics
 import Mhw from "./pages/Mhw";
+import SkillDetail from "./pages/SkillDetail";
+
 
 const Root = () => {
   return (
@@ -34,12 +36,17 @@ const App = () => {
           element: <ScheduleI />
         },
         {
-          path:"Mhw",
-          element:<Mhw />
+          path: "Mhw",
+          element: <Mhw />
+        },
+        {
+          path: "skills/:id",
+          element: <SkillDetail />
         }
       ]
     }
   ]);
+  
 
   return (
     <>

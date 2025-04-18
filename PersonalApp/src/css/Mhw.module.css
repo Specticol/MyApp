@@ -73,3 +73,15 @@
     color: #888;
   }
   
+  .skillCard {
+    display: block; /* 👈 Add this line */
+    text-decoration: none; /* 👈 Remove underline */
+    color: inherit; /* 👈 Inherit text color */
+    background-color: #2e2e2e;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border-left: 5px solid #00ffa6;
+    transition: transform 0.2s ease;
+  }
+  
