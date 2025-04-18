@@ -4,7 +4,7 @@ import { lastUpdate } from "../lastUpdate";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      Last Update: <span>{lastUpdate}</span>
+      Specticol Site - Last Update: <span>{lastUpdate}</span>
     </footer>
   );
 }
