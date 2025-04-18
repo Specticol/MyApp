@@ -11,13 +11,16 @@ import Footer from "./pages/Footer";
 
 const Root = () => {
   return (
-    <div>
+    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <Header />
-      <Outlet />
+      <div style={{ flex: 1 }}>
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
 };
+
 
 const App = () => {
   const router = createBrowserRouter([
