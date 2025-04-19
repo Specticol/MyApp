@@ -2692,7 +2692,7 @@
         },
         "level": 1,
         "name": "Affinity Sliding",
-        "description": "Increases your affinity temporarily when sliding on terrain.",
+        "description": "Increases Affinity by 30% for 30 Seconds when sliding on terrain.",
         "id": 221
       }
     ],
@@ -2728,7 +2728,7 @@
         },
         "level": 1,
         "name": "Hunter Gatherer",
-        "description": "Increases gathering speed, and prevents knock back when gathering or carving.",
+        "description": "Increases gathering speed by 2s, and prevents knock back when gathering or carving.",
         "id": 46
       }
     ],
@@ -2746,7 +2746,7 @@
         },
         "level": 1,
         "name": "Fortify",
-        "description": "Increases attack and defense after fainting during a quest. (Can be used twice.)",
+        "description": "Increases attack +10% (MAX: 20%) and defense +15% (MAX: 30%) after every faint during a quest. (Can be used twice.)",
         "id": 394
       }
     ],
@@ -2764,7 +2764,7 @@
         },
         "level": 1,
         "name": "Luck",
-        "description": "Increases quest target rewards. (No effect when joining mid-quest.)",
+        "description": "two additional target rewards. (No effect when joining mid-quest.)",
         "id": 180
       }
     ],
@@ -2800,7 +2800,7 @@
         },
         "level": 1,
         "name": "Wylk Burst",
-        "description": "Increases recovery speed of stamina and red gauge when near Wylkrystals.",
+        "description": "Increases recovery speed of stamina and red gauge by 50% when near Wylkrystals.",
         "id": 62
       }
     ],
@@ -2836,7 +2836,7 @@
         },
         "level": 1,
         "name": "Inspiration",
-        "description": "Temporarily increases attack power when using effects like Melody Effects that affect companions in range.",
+        "description": "Boosts Attack by 10 for 20 Seconds when using Items with AOE Effects/Wide-Range/Horn Melodies/",
         "id": 22
       }
     ],
