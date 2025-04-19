@@ -983,7 +983,7 @@
   {
     "name": "Evade Window",
     "kind": "armor",
-    "description": "Extends the invulnerability period when evading.",
+    "description": "Extends the invulnerability period when evading. (Base I-Frames at 60FPS 15 | 250ms)",
     "ranks": [
       {
         "skill": {
@@ -991,7 +991,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Very slightly increases invulnerability window.",
+        "description": "Very slightly increases invulnerability window. (I-Frames 17 | 283ms OR +2 (+13.3%))",
         "id": 188
       },
       {
@@ -1000,7 +1000,7 @@
         },
         "level": 2,
         "name": null,
-        "description": "Slightly increases invulnerability window.",
+        "description": "Slightly increases invulnerability window. (I-Frames 19 | 316ms OR +4 (+26.6%))",
         "id": 189
       },
       {
@@ -1009,7 +1009,7 @@
         },
         "level": 3,
         "name": null,
-        "description": "Increases invulnerability window.",
+        "description": "Increases invulnerability window. (I-Frames 21 | 350ms OR +6 (+40%))",
         "id": 190
       },
       {
@@ -1018,7 +1018,7 @@
         },
         "level": 4,
         "name": null,
-        "description": "Greatly increases invulnerability window.",
+        "description": "Greatly increases invulnerability window. (I-Frames 23 | 383ms OR +8 (+53.3%)",
         "id": 191
       },
       {
@@ -1027,7 +1027,7 @@
         },
         "level": 5,
         "name": null,
-        "description": "Massively increases invulnerability window.",
+        "description": "Massively increases invulnerability window. (I-Frames 28 | 466.7ms OR +13 (+86.6%)",
         "id": 192
       }
     ],
