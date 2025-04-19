@@ -1081,7 +1081,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Makes it ever so slightly easier to inflict wounds. Also deals additional non-elemental damage.",
+        "description": "Makes it ever so slightly easier to inflict wounds. Also deals additional +140 non-elemental damage.",
         "id": 88
       },
       {
@@ -1090,7 +1090,7 @@
         },
         "level": 2,
         "name": null,
-        "description": "Makes it moderately easier to inflict wounds. Also deals slightly more additional non-elemental damage.",
+        "description": "Makes it moderately easier to inflict wounds. Also deals additional +160 non-elemental damage.",
         "id": 89
       },
       {
@@ -1099,7 +1099,7 @@
         },
         "level": 3,
         "name": null,
-        "description": "Makes it easier to inflict wounds. Also deals moderately more additional non-elemental damage.",
+        "description": "Makes it easier to inflict wounds. Also deals additional +190 non-elemental damage.",
         "id": 90
       },
       {
@@ -1108,7 +1108,7 @@
         },
         "level": 4,
         "name": null,
-        "description": "Makes it much easier to inflict wounds. Also deals more additional non-elemental damage.",
+        "description": "Makes it much easier to inflict wounds. Also deals more additional +230 non-elemental damage.",
         "id": 91
       },
       {
@@ -1117,7 +1117,7 @@
         },
         "level": 5,
         "name": null,
-        "description": "Makes it significantly easier to inflict wounds. Also deals much more additional non-elemental damage.",
+        "description": "Makes it significantly easier to inflict wounds. Also deals additional +280 non-elemental damage.",
         "id": 92
       }
     ],
@@ -1541,7 +1541,7 @@
   {
     "name": "Latent Power",
     "kind": "armor",
-    "description": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+    "description": "Temporarily increases affinity and reduces stamina depletion when Remaining in combat for 2 minutes OR Take 120-150 points of damage.",
     "ranks": [
       {
         "skill": {
@@ -1649,7 +1649,7 @@
   {
     "name": "Maximum Might",
     "kind": "armor",
-    "description": "Increases affinity if stamina is kept full for a period of time.",
+    "description": "Increases affinity if stamina is kept full for 3 seconds and lasts 2 seconds after stamina use.",
     "ranks": [
       {
         "skill": {
@@ -1693,7 +1693,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Lets you digest blue mushrooms and toadstools.",
+        "description": "Lets you digest blue mushrooms (Restores 35 health) and toadstools (Increases natural health recovery).",
         "id": 125
       },
       {
@@ -1702,7 +1702,7 @@
         },
         "level": 2,
         "name": null,
-        "description": "Additionally lets you digest nitroshrooms and parashrooms.",
+        "description": "Additionally lets you digest nitroshrooms (Boosts attack by 5 points) and parashrooms (Boosts defense by 15 points).",
         "id": 126
       },
       {
@@ -1711,7 +1711,7 @@
         },
         "level": 3,
         "name": null,
-        "description": "Additionally lets you digest mandragoras, devil's blight, and exciteshrooms.",
+        "description": "Additionally lets you digest mandragoras (Fully heals your character's HP), devil's blight (Restores stamina and reduces stamina consumption), and exciteshrooms (Grants the effect of a random mushroom).",
         "id": 127
       }
     ],
@@ -2125,7 +2125,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Activates skill effect.",
+        "description": "Every 5 minutes add +5 defence (MAX: 20) and after 10 minutes add +4 attack (MAX: 12) every 5 minutes",
         "id": 361
       }
     ],
@@ -2189,7 +2189,7 @@
   {
     "name": "Speed Eating",
     "kind": "armor",
-    "description": "Increases meat-eating and item-consumption speed.",
+    "description": "Increases meat-eating and item-consumption speed. (Base speed: 6s)",
     "ranks": [
       {
         "skill": {
@@ -2197,7 +2197,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Moderately increases eating speed.",
+        "description": "Moderately increases eating speed. (speed: 4s, 666ms)",
         "id": 249
       },
       {
@@ -2206,7 +2206,7 @@
         },
         "level": 2,
         "name": null,
-        "description": "Increases eating speed.",
+        "description": "Increases eating speed.(speed: 3s, 833ms)",
         "id": 250
       },
       {
@@ -2215,7 +2215,7 @@
         },
         "level": 3,
         "name": null,
-        "description": "Greatly increases eating speed.",
+        "description": "Greatly increases eating speed. (speed: 3s, 333ms)",
         "id": 251
       }
     ],
