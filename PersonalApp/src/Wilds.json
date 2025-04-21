@@ -2854,7 +2854,7 @@
         },
         "level": 1,
         "name": "Resuscitate",
-        "description": "Increases attack when inflicted with ailments.",
+        "description": "Increases Attack by 10 when inflicted with ailments.",
         "id": 408
       }
     ],
@@ -2890,7 +2890,7 @@
         },
         "level": 1,
         "name": "Honey Hunter",
-        "description": "Increases the amount of honey you gain from gathering points.",
+        "description": "increasing the Honey gathered from 2 to 3-5.",
         "id": 391
       }
     ],
@@ -2962,7 +2962,7 @@
         },
         "level": 1,
         "name": "Hasten Recovery I",
-        "description": "Regenerates a small amount of your health as you continually attack a monster. Recovery varies by weapon.",
+        "description": "Regenerates a small amount of your health as you continually attack a monster. (Ranged: 3,Fast: 6,Slow: 15)",
         "id": 75
       },
       {
@@ -2971,7 +2971,7 @@
         },
         "level": 2,
         "name": "Hasten Recovery II",
-        "description": "Regenerates your health as you continually attack a monster. Recovery varies by weapon.",
+        "description": "Regenerates your health as you continually attack a monster. Recovery varies by weapon. (Ranged: 5,Fast: 10,Slow: 20)",
         "id": 76
       }
     ],
@@ -2989,7 +2989,7 @@
         },
         "level": 1,
         "name": "War Cry I",
-        "description": "Using the 'To Victory!' gesture moderately  increases attack temporarily to nearby allies. Greatly effects Palicoes and Support Hunters.",
+        "description": "Using the 'To Victory!' gesture increases true raw attack +3 for 3 minutes to nearby allies. Greatly effects Palicoes and Support Hunters.",
         "id": 269
       },
       {
@@ -2998,7 +2998,7 @@
         },
         "level": 2,
         "name": "War Cry II",
-        "description": "Using the 'To Victory!' gesture increases attack temporarily to nearby allies. Greatly effects Palicoes and Support Hunters.",
+        "description": "Using the 'To Victory!' gesture increases true raw attack +6 for 3 minutes to nearby allies. Greatly effects Palicoes and Support Hunters.",
         "id": 270
       }
     ],
@@ -3043,7 +3043,7 @@
         },
         "level": 1,
         "name": "Powerhouse I",
-        "description": "Temporarily grants attack +10 after a successful Power Clash or Offset attack",
+        "description": "Temporarily increases attack +10 after a successful Power Clash or Offset attack",
         "id": 171
       },
       {
@@ -3052,7 +3052,7 @@
         },
         "level": 2,
         "name": "Powerhouse II",
-        "description": "Temporarily grants attack +25 after a successful Power Clash or Offset attack",
+        "description": "Temporarily increases attack +25 after a successful Power Clash or Offset attack",
         "id": 172
       }
     ],
@@ -3070,7 +3070,7 @@
         },
         "level": 1,
         "name": "Burst Boost I",
-        "description": "Extends the duration of the Burst skill and grants attack +3 while Burst is active.",
+        "description": "Extends the duration of the Burst skill +1s and grants attack +3 while Burst is active.",
         "id": 292
       },
       {
@@ -3079,7 +3079,7 @@
         },
         "level": 2,
         "name": "Burst Boost II",
-        "description": "Further extends the duration of the Burst skill and grants attack +10 while Burst is active.",
+        "description": "Extends the duration of the Burst skill +2s and grants attack +10 while Burst is active.",
         "id": 293
       }
     ],
@@ -3097,7 +3097,7 @@
         },
         "level": 1,
         "name": "Second Wind I",
-        "description": "Grants an additional Stamina Gauge.",
+        "description": "Grants an additional Stamina Gauge of 25 stamina.",
         "id": 23
       },
       {
@@ -3106,7 +3106,7 @@
         },
         "level": 2,
         "name": "Second Wind II",
-        "description": "Grants an additional long Stamina Gauge.",
+        "description": "Grants an additional long Stamina Gauge of 50 stamina.",
         "id": 24
       }
     ],
@@ -3124,7 +3124,7 @@
         },
         "level": 1,
         "name": "Black Eclipse I",
-        "description": "Infects you with Frenzy when against large monsters.",
+        "description": "Infects you with Frenzy (+15% Affinity) when against large monsters.",
         "id": 267
       },
       {
@@ -3133,7 +3133,7 @@
         },
         "level": 2,
         "name": "Black Eclipse II",
-        "description": "Infects you with Frenzy and raises attack when against large monsters. Attack power increases upon recovery.",
+        "description": "Infects you with Frenzy and raises attack +10 Raw when against large monsters. Attack +5 Raw power increase upon recovery.",
         "id": 268
       }
     ],
@@ -3178,7 +3178,7 @@
         },
         "level": 1,
         "name": "Decimator I",
-        "description": "Restores a moderate amount of health when destroying a wound on a large monster.",
+        "description": "Restores 25 health when destroying a wound on a large monster.",
         "id": 60
       },
       {
@@ -3187,7 +3187,7 @@
         },
         "level": 2,
         "name": "Decimator II",
-        "description": "Restores health when destroying a wound on a large monster.",
+        "description": "Restores 50 health when destroying a wound on a large monster.",
         "id": 61
       }
     ],
@@ -3205,7 +3205,7 @@
         },
         "level": 1,
         "name": "Binding Counter I",
-        "description": "Increases attack after recovering from webbed status, frostblight, being pinned, or a Power Clash.",
+        "description": "Increases raw attack +25 after recovering from webbed status, frostblight, being pinned, or a Power Clash.",
         "id": 152
       },
       {
@@ -3214,7 +3214,7 @@
         },
         "level": 2,
         "name": "Binding Counter II",
-        "description": "Greatly increases attack after recovering from webbed status, frostblight, being pinned, or a Power Clash.",
+        "description": "Increases raw attack +50 after recovering from webbed status, frostblight, being pinned, or a Power Clash.",
         "id": 153
       }
     ],
@@ -3259,7 +3259,7 @@
         },
         "level": 1,
         "name": "Bad Blood I",
-        "description": "Deals moderate additional damage while the Resentment skill is active.",
+        "description": "Deals 20 additional damage while the Resentment skill is active. (25 on wounds)",
         "id": 392
       },
       {
@@ -3268,7 +3268,7 @@
         },
         "level": 2,
         "name": "Bad Blood II",
-        "description": "Deals additional damage while the Resentment skill is active.",
+        "description": "Deals 48 additional damage while the Resentment skill is active. (60 on wounds)",
         "id": 393
       }
     ],
@@ -3286,7 +3286,7 @@
         },
         "level": 1,
         "name": "Scorcher I",
-        "description": "Chance to deal additional fire damage after landing an attack.",
+        "description": "Chance to deal additional fire damage after landing an attack. (2-12)",
         "id": 173
       },
       {
@@ -3295,7 +3295,7 @@
         },
         "level": 2,
         "name": "Scorcher II",
-        "description": "Increases additional fire damage after landing an attack.",
+        "description": "Increases additional fire damage after landing an attack. (5-30)",
         "id": 174
       }
     ],
@@ -3305,7 +3305,7 @@
   {
     "name": "Rey Dau's Voltage",
     "kind": "set",
-    "description": "extends the activation time of the Latent Power skill.",
+    "description": "extends the activation time of the Latent Power skill. Base 2 minutes",
     "ranks": [
       {
         "skill": {
@@ -3313,7 +3313,7 @@
         },
         "level": 1,
         "name": "Thunderous Roar I",
-        "description": "Moderately extends the activation time of the Latent Power skill.",
+        "description": "Extends the activation time of the Latent Power skill by 30s. (2.30 minutes)",
         "id": 233
       },
       {
@@ -3322,7 +3322,7 @@
         },
         "level": 2,
         "name": "Thunderous Roar II",
-        "description": "Extends the activation time of the Latent Power skill.",
+        "description": "Extends the activation time of the Latent Power skill by 90s. (3.30 minutes)",
         "id": 234
       }
     ],
@@ -3340,7 +3340,7 @@
         },
         "level": 1,
         "name": "Protective Veil I",
-        "description": "Increases defense temporarily when using a specialized tool.",
+        "description": "Increases defense by 25 for 3 minutes when using a specialized tool.",
         "id": 401
       },
       {
@@ -3349,7 +3349,7 @@
         },
         "level": 2,
         "name": "Protective Veil II",
-        "description": "Greatly increases defense and resistance temporarily when using a specialized tool.",
+        "description": "Increases defense by 50 and resistances by 12 for 3 minutes when using a specialized tool.",
         "id": 402
       }
     ],
@@ -3359,7 +3359,7 @@
   {
     "name": "Xu Wu's Vigor",
     "kind": "set",
-    "description": "Increase attack after eating certain items.",
+    "description": "Increase attack after eating certain items. (Does Not Stack With Might Seed and Might Pill)",
     "ranks": [
       {
         "skill": {
@@ -3367,7 +3367,7 @@
         },
         "level": 1,
         "name": "Protein Fiend I",
-        "description": "Temporarily grants attack +15 after eating items such as well-done steak.",
+        "description": "Grants attack +15 for 2 minutes after eating items such as well-done steak.",
         "id": 58
       },
       {
@@ -3376,7 +3376,7 @@
         },
         "level": 2,
         "name": "Protein Fiend II",
-        "description": "Temporarily grants attack +25 after eating items such as well-done steak.",
+        "description": "Grants attack +25 for 2 minutes after eating items such as well-done steak.",
         "id": 59
       }
     ],
@@ -3439,7 +3439,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Moderately increases each attack and Wyvern's Fire firing speed. Shelling fire attack +30.",
+        "description": "Moderately increases each attack and Wyvern's Fire firing speed. Shelling fire attack +30, Sticky and Phial +10% dmg.",
         "id": 111
       },
       {
@@ -3448,7 +3448,7 @@
         },
         "level": 2,
         "name": null,
-        "description": "Increases each attack and Wyvern's Fire firing speed. Shelling fire attack +60.",
+        "description": "Increases each attack and Wyvern's Fire firing speed. Shelling fire attack +60, Sticky and Phial +20% dmg.",
         "id": 112
       },
       {
@@ -3457,7 +3457,7 @@
         },
         "level": 3,
         "name": null,
-        "description": "Greatly increases each attack and Wyvern's Fire firing speed. Shelling fire attack +90.",
+        "description": "Greatly increases each attack and Wyvern's Fire firing speed. Shelling fire attack +90, Sticky and Phial +30% dmg.",
         "id": 113
       }
     ],
@@ -3799,7 +3799,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Slightly increases elemental damage while active.",
+        "description": "Slightly increases elemental damage while active. (Ranged: 1.05x, Fast: ~1.05x, Slow: ~1.07x)",
         "id": 203
       },
       {
@@ -3808,7 +3808,7 @@
         },
         "level": 2,
         "name": null,
-        "description": "Increases elemental damage while active.",
+        "description": "Increases elemental damage while active. (Ranged: 1.1x, Fast: ~1.1x, Slow: ~1.13x)",
         "id": 204
       },
       {
@@ -3817,7 +3817,7 @@
         },
         "level": 3,
         "name": null,
-        "description": "Greatly increases elemental damage while active.",
+        "description": "Greatly increases elemental damage while active. (Ranged: 1.15x, Fast: ~1.15x, Slow: ~1.2x)",
         "id": 205
       }
     ],
