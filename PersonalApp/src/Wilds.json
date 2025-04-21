@@ -4321,7 +4321,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Slightly increases the power of specified ammo and arrows.",
+        "description": "Grants 5% Increased Damage of specified ammo and arrows.",
         "id": 12
       }
     ],
@@ -4331,7 +4331,7 @@
   {
     "name": "Offensive Guard",
     "kind": "weapon",
-    "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
+    "description": "For about 11 second increases attack power after executing a perfectly-timed guard.",
     "ranks": [
       {
         "skill": {
@@ -4375,7 +4375,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Moderately increases bowgun reload speed and attack power of ammo when certain conditions are met.",
+        "description": "Moderately increases bowgun reload speed and +5 raw attack power of ammo when certain conditions are met.",
         "id": 363
       },
       {
@@ -4384,7 +4384,7 @@
         },
         "level": 2,
         "name": null,
-        "description": "Increases bowgun reload speed and attack power of ammo when certain conditions are met.",
+        "description": "Increases bowgun reload speed and +10 raw attack power of ammo when certain conditions are met.",
         "id": 364
       },
       {
@@ -4393,7 +4393,7 @@
         },
         "level": 3,
         "name": null,
-        "description": "Greatly increases bowgun reload speed and attack power of ammo when certain conditions are met.",
+        "description": "Greatly increases bowgun reload speed and +15 raw attack power of ammo when certain conditions are met.",
         "id": 365
       }
     ],
@@ -4465,7 +4465,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Slightly increases the power of specified ammo and arrows.",
+        "description": "Grants 5% Increased Damage of specified ammo and arrows.",
         "id": 235
       }
     ],
@@ -4879,7 +4879,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Moderately increases the power of specified ammo and arrows.",
+        "description": "Damage Increases by 10% of specified ammo and arrows.",
         "id": 169
       },
       {
@@ -4888,7 +4888,7 @@
         },
         "level": 2,
         "name": null,
-        "description": "Increases the power of specified ammo and arrows.",
+        "description": "Damage Increases by 20% of specified ammo and arrows.",
         "id": 170
       }
     ],
@@ -4933,7 +4933,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Slightly increases the power of specified ammo and arrows.",
+        "description": "Grants 5% Increased Damage of specified ammo and arrows.",
         "id": 4
       }
     ],
@@ -4987,7 +4987,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Slightly increases the attack power and affinity of ammo after certain conditions are met.",
+        "description": "Increases the attack power by +3 and affinity by 10% of ammo after certain conditions are met.",
         "id": 358
       },
       {
@@ -4996,7 +4996,7 @@
         },
         "level": 2,
         "name": null,
-        "description": "Moderately increases attack power and affinity of ammo after certain conditions are met.",
+        "description": "Increases the attack power by +6 and affinity by 10% of ammo after certain conditions are met.",
         "id": 359
       },
       {
@@ -5005,7 +5005,7 @@
         },
         "level": 3,
         "name": null,
-        "description": "Increases the attack power and affinity of ammo after certain conditions are met.",
+        "description": "Increases the attack power by +10 and affinity by 10% of ammo after certain conditions are met.",
         "id": 360
       }
     ],
@@ -5095,7 +5095,7 @@
         },
         "level": 1,
         "name": null,
-        "description": "Activates skill effect. (When used with Scorcher, does not stack but adds extra fire damage.)",
+        "description": "Whiteflame Torrent Deals 50 Extra Damage. (When used with Scorcher, does not stack but adds extra fire damage.)",
         "id": 241
       }
     ],
