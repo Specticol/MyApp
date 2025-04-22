@@ -1,15 +1,13 @@
-import { Vortex } from "react-loader-spinner";
+import styles from "./Loading.module.css";
 
 export default function Loading() {
-    return (
-        <Vortex
-            visible={true}
-            height="80"
-            width="80"
-            ariaLabel="vortex-loading"
-            wrapperStyle={{}}
-            wrapperClass="vortex-wrapper"
-            colors={['#121212', '#00ffa6', '#121212', '#00ffa6', '#00ffa6', '#121212']}
-        />
-    )
+  return (
+    <div className={styles.wrapper}>
+      <div className={styles.vortex}>
+        <div className={styles.ring1}></div>
+        <div className={styles.ring2}></div>
+        <div className={styles.ring3}></div>
+      </div>
+    </div>
+  );
 }
