@@ -4,9 +4,11 @@ import Home from "./pages/Home";
 import Smt from "./pages/Smt";
 import ScheduleI from "./pages/ScheduleI";
 import { Analytics } from "@vercel/analytics/react"; // ✅ Import Analytics
-import Mhw from "./pages/Mhw";
-import SkillDetail from "./pages/SkillDetail";
+import Mhw from "./pages/Mhw/Mhw";
+import SkillDetail from "./pages/Mhw/SkillDetail";
 import Footer from "./pages/Footer";
+import MhwSkills from "./pages/Mhw/MhwSkills";
+import MhwArmor from "./pages/Mhw/Armor";
 
 
 const Root = () => {
@@ -33,7 +35,7 @@ const App = () => {
           element: <Home />
         },
         {
-          path: "smt",
+          path: "SuperMarket",
           element: <Smt />
         },
         {
@@ -45,13 +47,21 @@ const App = () => {
           element: <Mhw />
         },
         {
-          path: "skills/:id",
+          path: "Mhw/Skills",
+          element: <MhwSkills />
+        },
+        {
+          path: "Mhw/skills/:id",
           element: <SkillDetail />
+        },
+        {
+          path: "Mhw/armor",
+          element: <MhwArmor />
         }
       ]
     }
   ]);
-  
+
 
   return (
     <>

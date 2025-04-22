@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import data from "../Wilds.json";
-import styles from "../css/Mhw.module.css";
-import { Skills, Kind } from "../interface";
+import data from "../../WildsSkills.json";
+import styles from "../../css/MhwSkills.module.css";
+import { Skills, Kind } from "../../interfaces/IMhwSkills";
 import { Link } from "react-router-dom";
 
 
 
-export default function Mhw() {
+export default function MhwSkills() {
     const [skills, setSkills] = useState<Skills[]>([]);
     const [search, setSearch] = useState("");
     const [filterKind, setFilterKind] = useState<Kind | "all">("all");
@@ -50,7 +50,7 @@ export default function Mhw() {
                 <p className={styles.noResults}>No skills found.</p>
             ) : (
                 filteredSkills.map((skill) => (
-                    <Link to={`/skills/${skill.id}`} className={styles.skillCard}>
+                    <Link to={`/Mhw/skills/${skill.id}`} className={styles.skillCard}>
                         <p><strong>Name:</strong> {skill.name}</p>
                         <p><strong>Type:</strong> {skill.kind}</p>
                         <p><strong>Max Lv:</strong> {skill.ranks.length}</p>

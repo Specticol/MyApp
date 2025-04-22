@@ -2962,7 +2962,7 @@
         },
         "level": 1,
         "name": "Hasten Recovery I",
-        "description": "Regenerates a small amount of your health as you continually attack a monster. (Ranged: 3,Fast: 6,Slow: 15)",
+        "description": "Regenerates a small amount of your health as you continually attack a monster. (Ranged: 3, Fast: 6, Slow: 15)",
         "id": 75
       },
       {
@@ -2971,7 +2971,7 @@
         },
         "level": 2,
         "name": "Hasten Recovery II",
-        "description": "Regenerates your health as you continually attack a monster. Recovery varies by weapon. (Ranged: 5,Fast: 10,Slow: 20)",
+        "description": "Regenerates your health as you continually attack a monster. Recovery varies by weapon. (Ranged: 5, Fast: 10, Slow: 20)",
         "id": 76
       }
     ],

@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
-import data from "../Wilds.json";
-import { Skills, Kind } from "../interface";
-import styles from "../css/SkillDetail.module.css";
+import data from "../../WildsSkills.json";
+import { Skills, Kind } from "../../interfaces/IMhwSkills";
+import styles from "../../css/SkillDetail.module.css";
 
 
 export default function SkillDetail() {
@@ -40,7 +40,7 @@ export default function SkillDetail() {
                 ))}
             </ul>
 
-            <Link to="/Mhw" className={styles.backLink}>← Back to Skills</Link>
+            <Link to="/Mhw/Skills" className={styles.backLink}>← Back to Skills</Link>
         </div>
 
     );
