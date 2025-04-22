@@ -4,7 +4,7 @@
   align-items: center;
   background-color: var(--header-color);
   padding: 15px 30px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: var(--card-shadow);
 }
 
 .links {

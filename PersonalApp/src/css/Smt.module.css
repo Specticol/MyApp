@@ -4,7 +4,7 @@
   padding: 30px;
   border-radius: 12px;
   background-color: var(--bg-color);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  box-shadow: var(--card-shadow);
   text-align: center;
   font-family: sans-serif;
   color: var(--text-color); 
