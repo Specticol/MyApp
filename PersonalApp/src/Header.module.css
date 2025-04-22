@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #121212;
+  background-color: var(--header-color);
   padding: 15px 30px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
@@ -13,7 +13,7 @@
 }
 
 .link {
-  color: #f0f0f0;
+  color: var(--text-color);
   text-decoration: none;
   font-size: 1rem;
   padding: 10px;
@@ -22,12 +22,34 @@
 }
 
 .link:hover {
-  background-color: #00ffa644;
+  background-color: var(--accent-darker-color);
 }
 
 .logo {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #00ffa6;
+  color: var(--accent-color);
   font-family: sans-serif;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.themeToggle {
+  background-color: transparent;
+  color: var(--text-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.themeToggle:hover {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
 }

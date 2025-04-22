@@ -1,12 +1,39 @@
 :root {
-  --accent-color: #00ffa6;
+  /* Default: dark mode */
+  --main-bg-color: #313131;
   --bg-color: #1e1e1e;
-  --text-color: #f0f0f0;
+  --text-color: #d3d3d3;
+  --text-gray-color:#aaaaaa;
+  --accent-color: #00ffa6;
+  --accent-darker-color:#00ffa644;
+  --accent-lighter-color:#66ffd1;
+  --card-color: #2a2a2a;
+  --card-lighter-color: #555;
+  --header-color: #121212;
 }
 
-html, body {
-  background-color: rgb(49, 49, 49);
-  color: rgb(245, 245, 245);
+[data-theme="light"] {
+  --main-bg-color: #f2f2f2;         /* very light neutral for main background */
+  --bg-color: #ffffff;              /* pure white for content background */
+  --text-color: #1a1a1a;            /* dark gray, easier on the eyes than pure black */
+  --text-gray-color: #868686;       /* medium gray for subtitles or muted content */
+  
+  --accent-color: #00b894;          /* vibrant teal */
+  --accent-darker-color: #00997a;   /* deeper version of the accent */
+  --accent-lighter-color: #66ffd1;  /* pastel-teal accent for hovers/highlights */
+  
+  --card-color: #dbdbdb;            /* clean light gray for cards or boxes */
+  --card-lighter-color: #e0e0e0;    /* slightly darker for borders/shadows */
+  
+  --header-color: #eaeaea;          /* light tone for header/nav background */
+}
+
+
+html,
+body {
+  transition: background-color 0.3s, color 0.3s;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
   margin: 0;
   padding: 0;
   font-family: sans-serif;
