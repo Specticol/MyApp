@@ -2,11 +2,33 @@ import { useEffect, useState } from "react";
 import { Armor } from "../../interfaces/IMhwArmor";
 import Loading from "../../Loading";
 
+type SlotProps = {
+    Slots: number[]
+}
+
 
 async function fetchArmor(): Promise<Armor[]> {
     const response = await fetch('https://wilds.mhdb.io/en/armor');
     const data = await response.json();
     return data;
+}
+
+function SlotAmount({ Slots }: SlotProps) {
+    let SlotShown: string[] = [];
+    for (let i = 0; i < 3; i++) {
+        if (Slots[i] == 1) {
+            SlotShown.push(`\u2460`)
+        } else if (Slots[i] == 2) {
+            SlotShown.push(`\u2461`)
+        } else if (Slots[i] == 3) {
+            SlotShown.push(`\u2462`)
+        } else { SlotShown.push(`\u3280`) }
+    }
+    return (
+        <>
+            <p>Slots: {SlotShown.map(a => (a))}</p>
+        </>
+    )
 }
 
 
@@ -40,7 +62,7 @@ export default function MhwArmor() {
             <div>
                 {
                     armor.map((a, i) => (
-                        <div key={i} style={{ backgroundColor: "black" }}>
+                        <div key={i} style={{ backgroundColor: "#1e1e1e" }}>
 
                             <p>{a.kind} piece</p>
                             <p>Name: {a.name}</p>
@@ -50,7 +72,8 @@ export default function MhwArmor() {
                                 <p key={skill.skill.id}>Skill: {skill.skill.name}</p>
                             ))}</div>
 
-                            <p>{a.slots.map((a, i) => (<p>Slot {i + 1}: level {a}</p>))}</p>
+
+                            <p>{<SlotAmount Slots={a.slots} />}</p>
                         </div>
                     ))
                 }
