@@ -36,6 +36,9 @@ export default function MhwArmor() {
 
     const [armor, setArmor] = useState<Armor[]>([]);
     const [isLoading, setIsLoading] = useState(true);
+    const [searchTerm, setSearchTerm] = useState("");
+
+
     useEffect(() => {
         setIsLoading(true);
         fetchArmor()
@@ -47,7 +50,13 @@ export default function MhwArmor() {
             });
     }, []);
 
-
+    const filteredArmor = armor.filter((a) => {
+        const nameMatch = a.name.toLowerCase().includes(searchTerm.toLowerCase());
+        const skillMatch = a.skills.some(skill =>
+            skill.skill.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+        return nameMatch || skillMatch;
+    });
     if (isLoading) {
         return (
             <>
@@ -56,12 +65,26 @@ export default function MhwArmor() {
         )
     }
 
+
+
+
     return (
         <>
             <h2>Armor Page WIP</h2>
             <div>
+                <input
+                    type="text"
+                    placeholder="Search by armor or skill name..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    style={{ padding: "0.5rem", margin: "1rem 0", width: "100%" }}
+                />
+
+            </div>
+            <div>
+
                 {
-                    armor.map((a, i) => (
+                    filteredArmor.map((a, i) => (
                         <div key={i} style={{ backgroundColor: "#1e1e1e" }}>
 
                             <p>{a.kind} piece</p>
