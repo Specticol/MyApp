@@ -1,0 +1,1193 @@
+{
+  "88": {
+    "description": "Grants protection against environmental damage, such as from heat or cold.",
+    "ranks": {
+      "219": "Negates the effects of heat and cold.",
+      "220": "Negates environmental damage."
+    }
+  },
+  "120": {
+    "description": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+    "ranks": {
+      "310": "Attack +10 while active.",
+      "311": "Attack +15 while active.",
+      "312": "Attack +20 while active.",
+      "313": "Attack +25 while active.",
+      "314": "Attack +30 while active."
+    }
+  },
+  "144": {
+    "description": "Increases attack power and affinity when large monsters become enraged.",
+    "ranks": {
+      "375": "Attack +4 and affinity +3% while active.",
+      "376": "Attack +8 and affinity +5% while active.",
+      "377": "Attack +12 and affinity +7% while active.",
+      "378": "Attack +16 and affinity +10% while active.",
+      "379": "Attack +20 and affinity +15% while active."
+    }
+  },
+  "67": {
+    "description": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
+    "ranks": {
+      "163": "Attack +5% while active.",
+      "164": "Attack +10% while active.",
+      "165": "Attack +15% while active."
+    }
+  },
+  "18": {
+    "description": "Once infected, makes it easier to overcome the Frenzy and increases affinity if cured.",
+    "ranks": {
+      "43": "Slightly increases recovery rate after contracting the Frenzy. Affinity +3% if cured.",
+      "44": "Increases recovery rate after contracting the Frenzy. Affinity +6% if cured.",
+      "45": "Greatly increases recovery rate after contracting the Frenzy. Affinity +15% if cured."
+    }
+  },
+  "63": {
+    "description": "Grants resistance against impairments to mobility while in water, oilsilt, or streams.",
+    "ranks": {
+      "154": "Negates the effects of muddy streams, and prevents you from being slowed down in water or oilsilt.",
+      "155": "Also negates the effects of waves."
+    }
+  },
+  "147": {
+    "description": "Grants protection against webbed status and frostblight.",
+    "ranks": {
+      "388": "Allows you to quickly recover from webbed status or frostblight.",
+      "389": "Allows you to very quickly recover from webbed status or frostblight.",
+      "390": "Prevents webbed status and frostblight."
+    }
+  },
+  "110": {
+    "description": "Grants protection against blastblight.",
+    "ranks": {
+      "276": "Delays blastblight and reduces blast damage.",
+      "277": "Greatly delays blastblight and greatly reduces blast damage.",
+      "278": "Prevents blastblight."
+    }
+  },
+  "146": {
+    "description": "Grants protection against bleeding.",
+    "ranks": {
+      "385": "Reduces damage while bleeding.",
+      "386": "Greatly reduces damage while bleeding.",
+      "387": "Prevents bleeding."
+    }
+  },
+  "49": {
+    "description": "Grants protection against all elemental blights.",
+    "ranks": {
+      "117": "Reduces the duration of all elemental blights by 50%.",
+      "118": "Reduces the duration of all elemental blights by 75%.",
+      "119": "Nullifies all elemental blights."
+    }
+  },
+  "61": {
+    "description": "Improves the effectiveness of flash attacks and items.",
+    "ranks": {
+      "151": "Improves the effectiveness of flash attacks and items."
+    }
+  },
+  "37": {
+    "description": "Increases the damage of explosive items.",
+    "ranks": {
+      "85": "Explosive power +10%",
+      "86": "Explosive power +20%",
+      "87": "Explosive power +30%"
+    }
+  },
+  "112": {
+    "description": "Increases the quantity of herbs and other consumable items you gather.",
+    "ranks": {
+      "282": "One extra consumable herb item per gather.",
+      "283": "Additionally adds one extra consumable fruit, nut, or seed item per gather.",
+      "284": "Additionally adds one extra consumable insect item per gather.",
+      "285": "Additionally adds one extra consumable mushroom item per gather."
+    }
+  },
+  "95": {
+    "description": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
+    "ranks": {
+      "236": "On first hit, gain a small temporary attack and element boost, replaced by a larger boost after the fifth hit.",
+      "237": "Hit 5 successive times for a moderate stat boost.",
+      "238": "Hit 5 successive times for a bigger stat boost.",
+      "239": "Hit 5 successive times for an even bigger stat boost.",
+      "240": "Hit 5 successive times for a huge stat boost."
+    }
+  },
+  "42": {
+    "description": "Decreases stamina depletion when climbing on vines.",
+    "ranks": {
+      "102": "Reduces stamina depletion while climbing by 50%."
+    }
+  },
+  "13": {
+    "description": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
+    "ranks": {
+      "28": "When active, grants a slight increase to elemental damage and status buildup.",
+      "29": "When active, grants an increase to elemental damage and status buildup.",
+      "30": "When active, grants a large increase to elemental damage and status buildup."
+    }
+  },
+  "14": {
+    "description": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+    "ranks": {
+      "31": "Reduces fixed stamina depletion by 10%.",
+      "32": "Reduces fixed stamina depletion by 20%.",
+      "33": "Reduces fixed stamina depletion by 30%.",
+      "34": "Reduces fixed stamina depletion by 40%.",
+      "35": "Reduces fixed stamina depletion by 50%."
+    }
+  },
+  "152": {
+    "description": "After taking elemental damage, temporarily grants you dragon element effects. (Cooldown after effect ends.)",
+    "ranks": {
+      "398": "While active, deals extra dragon damage after dealing enough elemental damage. Slightly increases dragon attack.",
+      "399": "Increases additional dragon damage and increases dragon attack.",
+      "400": "Further increases additional dragon damage and greatly increases dragon attack."
+    }
+  },
+  "81": {
+    "description": "Temporarily increases attack power after being knocked back.",
+    "ranks": {
+      "200": "Attack +10 while active.",
+      "201": "Attack +15 while active. Moderately extends effect time.",
+      "202": "Attack +25 while active. Extends effect time."
+    }
+  },
+  "118": {
+    "description": "Increases defense. Also improves resistances at higher levels.",
+    "ranks": {
+      "298": "Defense +5",
+      "299": "Defense +10",
+      "300": "Defense +5% Bonus: +10",
+      "301": "Defense +5% Bonus: +20 All elemental resistances +3",
+      "302": "Defense +8% Bonus: +20 All elemental resistances +3",
+      "303": "Defense +8% Bonus: +35 All elemental resistances +5",
+      "304": "Defense +10% Bonus: +35 All elemental resistances +5"
+    }
+  },
+  "122": {
+    "description": "Has a predetermined chance of reducing the damage you take.",
+    "ranks": {
+      "318": "While active, reduces damage taken by 15%.",
+      "319": "While active, reduces damage taken by 30%.",
+      "320": "While active, reduces damage taken by 50%."
+    }
+  },
+  "1": {
+    "description": "Increases dragon resistance. Also improves defense at higher levels.",
+    "ranks": {
+      "1": "Dragon resistance +6",
+      "2": "Dragon resistance +12",
+      "3": "Dragon resistance +20 Defense +10"
+    }
+  },
+  "80": {
+    "description": "Grants protection from large monsters' roars.",
+    "ranks": {
+      "197": "Reduces the effects of weak monster roars.",
+      "198": "Nullifies weak monster roars and reduces the effects of strong monster roars.",
+      "199": "Nullifies weak and strong monster roars."
+    }
+  },
+  "133": {
+    "description": "After taking elemental damage, temporarily grants you element effects. (Cooldown after effect ends)",
+    "ranks": {
+      "346": "While active, slightly increases elemental attack, and resistance to element taken at activation by 4.",
+      "347": "While active, moderately increases elemental attack, and resistance to element taken at activation by 6.",
+      "348": "While active, increases elemental attack, and resistance to element taken at activation by 8."
+    }
+  },
+  "114": {
+    "description": "The bodies of small insect monsters won't be destroyed, allowing them to be carved.",
+    "ranks": {
+      "291": "Activates skill effect."
+    }
+  },
+  "102": {
+    "description": "Increases evade distance.",
+    "ranks": {
+      "255": "Slightly extends evasion distance.",
+      "256": "Extends evasion distance.",
+      "257": "Greatly extends evasion distance."
+    }
+  },
+  "77": {
+    "description": "Extends the invulnerability period when evading. (Base I-Frames at 60FPS 15 | 250ms)",
+    "ranks": {
+      "188": "Very slightly increases invulnerability window. (I-Frames 17 | 283ms OR +2 (+13.3%))",
+      "189": "Slightly increases invulnerability window. (I-Frames 19 | 316ms OR +4 (+26.6%))",
+      "190": "Increases invulnerability window. (I-Frames 21 | 350ms OR +6 (+40%))",
+      "191": "Greatly increases invulnerability window. (I-Frames 23 | 383ms OR +8 (+53.3%)",
+      "192": "Massively increases invulnerability window. (I-Frames 28 | 466.7ms OR +13 (+86.6%)"
+    }
+  },
+  "125": {
+    "description": "Increases fire resistance. Also improves defense at higher levels.",
+    "ranks": {
+      "327": "Fire resistance +6",
+      "328": "Fire resistance +12",
+      "329": "Fire resistance +20 Defense +10"
+    }
+  },
+  "38": {
+    "description": "Makes it easier to inflict wounds. Upon inflicting enough damage, also deals additional non-elemental damage.",
+    "ranks": {
+      "88": "Makes it ever so slightly easier to inflict wounds. Also deals additional +140 non-elemental damage.",
+      "89": "Makes it moderately easier to inflict wounds. Also deals additional +160 non-elemental damage.",
+      "90": "Makes it easier to inflict wounds. Also deals additional +190 non-elemental damage.",
+      "91": "Makes it much easier to inflict wounds. Also deals more additional +230 non-elemental damage.",
+      "92": "Makes it significantly easier to inflict wounds. Also deals additional +280 non-elemental damage."
+    }
+  },
+  "108": {
+    "description": "Prevents knockbacks and other reactions to small damage.",
+    "ranks": {
+      "271": "Prevents knockbacks.",
+      "272": "Prevents knockbacks. Tripping is reduced to a knockback instead.",
+      "273": "Prevents knockbacks and tripping."
+    }
+  },
+  "75": {
+    "description": "Increases attack power and affinity against large monsters affected by poison or paralysis.",
+    "ranks": {
+      "182": "Attack +6 against large monsters affected by poison or paralysis.",
+      "183": "Attack +8 and affinity +5% against large monsters affected by poison or paralysis.",
+      "184": "Attack +10 and affinity +10% against large monsters affected by poison or paralysis.",
+      "185": "Attack +12 and affinity +15% against large monsters affected by poison or paralysis.",
+      "186": "Attack +15 and affinity +20% against large monsters affected by poison or paralysis."
+    }
+  },
+  "111": {
+    "description": "Gives you a predetermined chance of consuming a food or drink item for free.",
+    "ranks": {
+      "279": "Activates 10% of the time.",
+      "280": "Activates 25% of the time.",
+      "281": "Activates 45% of the time."
+    }
+  },
+  "98": {
+    "description": "Increases the number of items you gain at gathering points.",
+    "ranks": {
+      "243": "One extra item when gathering from bonepiles.",
+      "244": "Additionally adds one extra item when gathering special items.",
+      "245": "Additionally adds one extra item when gathering from mining outcrops."
+    }
+  },
+  "87": {
+    "description": "Increases attack power and defense when health drops to 35% or lower.",
+    "ranks": {
+      "214": "Defense +50 while active.",
+      "215": "Attack +5% and defense +50 while active.",
+      "216": "Attack +5% and defense +100 while active.",
+      "217": "Attack +10% and defense +100 while active.",
+      "218": "Attack +30% and defense-increasing effects are negated while active."
+    }
+  },
+  "151": {
+    "description": "Reduces maximum stamina depletion over time.",
+    "ranks": {
+      "395": "Extends the time until your stamina cap reduces by 50%.",
+      "396": "Extends the time until your stamina cap reduces by 100%.",
+      "397": "Prevents your stamina cap from decreasing."
+    }
+  },
+  "101": {
+    "description": "Increases ice resistance. Also improves defense at higher levels.",
+    "ranks": {
+      "252": "Ice resistance +6",
+      "253": "Ice resistance +12",
+      "254": "Ice resistance +20 Defense +10"
+    }
+  },
+  "130": {
+    "description": "Reduces the chance small monsters will attack after spotting you. (Has no effect on certain monsters.)",
+    "ranks": {
+      "341": "Discourages monsters from engaging you even if you've been spotted.",
+      "342": "Highly discourages monsters from engaging you even if you've been spotted.",
+      "343": "Prevents monsters from engaging you even if you've been spotted."
+    }
+  },
+  "135": {
+    "description": "Grants protection against defense down.",
+    "ranks": {
+      "352": "Reduces the duration of defense down by 50%.",
+      "353": "Reduces the duration of defense down by 75%.",
+      "354": "Prevents defense down."
+    }
+  },
+  "15": {
+    "description": "Extends the duration of some item effects.",
+    "ranks": {
+      "36": "Item effect duration +10%",
+      "37": "Item effect duration +25%",
+      "38": "Item effect duration +50%"
+    }
+  },
+  "76": {
+    "description": "Prevents attacks from knocking you back during a jump.",
+    "ranks": {
+      "187": "Negates knockback during jumps."
+    }
+  },
+  "142": {
+    "description": "Temporarily increases affinity and reduces stamina depletion when Remaining in combat for 2 minutes OR Take 120-150 points of damage.",
+    "ranks": {
+      "369": "While active, affinity +10% and reduces stamina depletion by 30%.",
+      "370": "While active, affinity +20% and reduces stamina depletion by 30%.",
+      "371": "While active, affinity +30% and reduces stamina depletion by 50%.",
+      "372": "While active, affinity +40% and reduces stamina depletion by 50%.",
+      "373": "While active, affinity +50% and reduces stamina depletion by 50%."
+    }
+  },
+  "28": {
+    "description": "Allows you to do a dive-evade when facing towards large monsters and extends the dive-evade distance.",
+    "ranks": {
+      "63": "Enables skill use."
+    }
+  },
+  "43": {
+    "description": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
+    "ranks": {
+      "103": "Reduces continuous stamina depletion by 15%.",
+      "104": "Reduces continuous stamina depletion by 30%.",
+      "105": "Reduces continuous stamina depletion by 50%."
+    }
+  },
+  "99": {
+    "description": "Increases affinity if stamina is kept full for 3 seconds and lasts 2 seconds after stamina use.",
+    "ranks": {
+      "246": "Affinity +10% while active",
+      "247": "Affinity +20% while active",
+      "248": "Affinity +30% while active"
+    }
+  },
+  "52": {
+    "description": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+    "ranks": {
+      "125": "Lets you digest blue mushrooms (Restores 35 health) and toadstools (Increases natural health recovery).",
+      "126": "Additionally lets you digest nitroshrooms (Boosts attack by 5 points) and parashrooms (Boosts defense by 15 points).",
+      "127": "Additionally lets you digest mandragoras (Fully heals your character's HP), devil's blight (Restores stamina and reduces stamina consumption), and exciteshrooms (Grants the effect of a random mushroom)."
+    }
+  },
+  "143": {
+    "description": "Improves fishing, grilling, and transporting abilities.",
+    "ranks": {
+      "374": "Improves fishing, grilling, and transporting abilities."
+    }
+  },
+  "145": {
+    "description": "Powers up Palicoes.",
+    "ranks": {
+      "380": "Increases Palico attack power and defense by 5%.",
+      "381": "Increases Palico attack power and defense by 10%.",
+      "382": "Increases Palico attack power and defense by 15%.",
+      "383": "Increases Palico attack power and defense by 20%.",
+      "384": "Increases Palico attack power and defense by 25%."
+    }
+  },
+  "92": {
+    "description": "Reduces the duration of paralysis.",
+    "ranks": {
+      "230": "Reduces the duration of paralysis by 30%.",
+      "231": "Reduces the duration of paralysis by 60%.",
+      "232": "Prevents paralysis."
+    }
+  },
+  "129": {
+    "description": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
+    "ranks": {
+      "338": "Increases part damage and damage dealt when conditions are met by 10%.",
+      "339": "Increases part damage and damage dealt when conditions are met by 20%.",
+      "340": "Increases part damage and damage dealt when conditions are met by 30%."
+    }
+  },
+  "154": {
+    "description": "Increases attack when your health is full.",
+    "ranks": {
+      "403": "Attack +3 while active.",
+      "404": "Attack +6 while active.",
+      "405": "Attack +10 while active.",
+      "406": "Attack +15 while active.",
+      "407": "Attack +20 while active."
+    }
+  },
+  "128": {
+    "description": "Reduces damage while poisoned.",
+    "ranks": {
+      "335": "Reduces the number of times you take poison damage.",
+      "336": "Greatly reduces the number of times you take poison damage.",
+      "337": "Prevents poison."
+    }
+  },
+  "32": {
+    "description": "Speeds up weapon sheathing.",
+    "ranks": {
+      "72": "Slightly increases sheathing speed.",
+      "73": "Increases sheathing speed.",
+      "74": "Greatly increases sheathing speed."
+    }
+  },
+  "31": {
+    "description": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
+    "ranks": {
+      "69": "Doubles the speed at which you heal recoverable damage.",
+      "70": "Triples the speed at which you heal recoverable damage.",
+      "71": "Quadruples the speed at which you heal recoverable damage."
+    }
+  },
+  "30": {
+    "description": "Increases the amount recovered when restoring health.",
+    "ranks": {
+      "66": "Slightly increases recovery.",
+      "67": "Moderately increases recovery.",
+      "68": "Greatly increases recovery."
+    }
+  },
+  "123": {
+    "description": "Increases attack when you have recoverable damage (the red portion of your Health Gauge).",
+    "ranks": {
+      "321": "Attack +5 while active.",
+      "322": "Attack +10 while active.",
+      "323": "Attack +15 while active.",
+      "324": "Attack +20 while active.",
+      "325": "Attack +25 while active."
+    }
+  },
+  "138": {
+    "description": "Attack and defense increase as time passes while on a quest. (The maximum is reached after 30 minutes.)",
+    "ranks": {
+      "361": "Every 5 minutes add +5 defence (MAX: 20) and after 10 minutes add +4 attack (MAX: 12) every 5 minutes"
+    }
+  },
+  "45": {
+    "description": "Disables damage reactions when you hit a friend or when a friend hits you.",
+    "ranks": {
+      "107": "Activates skill effect."
+    }
+  },
+  "64": {
+    "description": "Reduces the duration of sleep.",
+    "ranks": {
+      "156": "Reduces the duration of sleep by 30%.",
+      "157": "Reduces the duration of sleep by 60%.",
+      "158": "Prevents sleep."
+    }
+  },
+  "100": {
+    "description": "Increases meat-eating and item-consumption speed. (Base speed: 6s)",
+    "ranks": {
+      "249": "Moderately increases eating speed. (speed: 4s, 666ms)",
+      "250": "Increases eating speed.(speed: 3s, 833ms)",
+      "251": "Greatly increases eating speed. (speed: 3s, 333ms)"
+    }
+  },
+  "58": {
+    "description": "Speeds up stamina recovery.",
+    "ranks": {
+      "142": "Stamina recovery speed +10%",
+      "143": "Stamina recovery speed +30%",
+      "144": "Stamina recovery speed +50%"
+    }
+  },
+  "55": {
+    "description": "Grants protection against stench.",
+    "ranks": {
+      "133": "Reduces stench duration by 50%.",
+      "134": "Prevents stench."
+    }
+  },
+  "105": {
+    "description": "Reduces the duration of stun.",
+    "ranks": {
+      "264": "Reduces the duration of stun by 30%.",
+      "265": "Reduces the duration of stun by 60%.",
+      "266": "Prevents stun."
+    }
+  },
+  "48": {
+    "description": "Extra health is recovered from environmental interactables.",
+    "ranks": {
+      "114": "Restores 50 health.",
+      "115": "Restores 80 health.",
+      "116": "Restores 100 health."
+    }
+  },
+  "156": {
+    "description": "Increases thunder resistance. Also improves defense at higher levels.",
+    "ranks": {
+      "409": "Thunder resistance +6",
+      "410": "Thunder resistance +12",
+      "411": "Thunder resistance +20 Defense +10"
+    }
+  },
+  "90": {
+    "description": "Reduces the recharge time for specialized tools.",
+    "ranks": {
+      "222": "Shortens recharge time by 10%.",
+      "223": "Shortens recharge time by 20%.",
+      "224": "Shortens recharge time by 30%.",
+      "225": "Shortens recharge time by 40%.",
+      "226": "Shortens recharge time by 50%."
+    }
+  },
+  "46": {
+    "description": "Grants protection against ground tremors.",
+    "ranks": {
+      "108": "Nullifies very minor ground tremors and halves effects of minor ground tremors.",
+      "109": "Nullifies up to minor ground tremors and greatly reduces the effects of major ground tremors.",
+      "110": "Nullifies all ground tremors."
+    }
+  },
+  "84": {
+    "description": "Increases water resistance. Also improves defense at higher levels.",
+    "ranks": {
+      "207": "Water resistance +6",
+      "208": "Water resistance +12",
+      "209": "Water resistance +20 Defense +10"
+    }
+  },
+  "57": {
+    "description": "Increases the affinity of attacks that exploit a monster's weak  points and wounds.",
+    "ranks": {
+      "137": "Attacks that hit weak points gain affinity +5%, with an extra 3% on wounds.",
+      "138": "Attacks that hit weak points gain affinity +10%, with an extra 5% on wounds.",
+      "139": "Attacks that hit weak points gain affinity +15%, with an extra 10% on wounds.",
+      "140": "Attacks that hit weak points have 20% increased affinity, with an extra 15% on wounds.",
+      "141": "Attacks that hit weak points have 30% increased affinity, with an extra 20% on wounds."
+    }
+  },
+  "113": {
+    "description": "Allows the effects of certain items to also affect nearby allies.",
+    "ranks": {
+      "286": "Items affect nearby allies with 33% of their efficacy.",
+      "287": "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "288": "Items affect nearby allies in a wider radius with 66% of their efficacy.",
+      "289": "Items affect nearby allies in a much wider radius with 66% of their efficacy.",
+      "290": "Items affect nearby allies in a much wider radius with full efficacy."
+    }
+  },
+  "35": {
+    "description": "Grants protection against wind pressure.",
+    "ranks": {
+      "79": "Negates minor wind pressure and halves the effects of major wind pressure.",
+      "80": "Negates minor and major wind pressure and halves the effects of dragon wind pressure.",
+      "81": "Negates all kinds of wind pressure."
+    }
+  },
+  "97": {
+    "description": "Increases the attention drawn to you when attacking a monster.",
+    "ranks": {
+      "242": "Increases the attention drawn to you when attacking a monster."
+    }
+  },
+  "89": {
+    "description": "Increases your affinity temporarily when sliding on terrain.",
+    "ranks": {
+      "221": "Increases Affinity by 30% for 30 Seconds when sliding on terrain."
+    }
+  },
+  "74": {
+    "description": "Lets you carve one additional time from carcasses during quests.",
+    "ranks": {
+      "181": "Lets you carve one additional time from carcasses during quests. (No effect when joining mid-quest.)"
+    }
+  },
+  "19": {
+    "description": "Increases gathering speed, and prevents knock back when gathering or carving.",
+    "ranks": {
+      "46": "Increases gathering speed by 2s, and prevents knock back when gathering or carving."
+    }
+  },
+  "150": {
+    "description": "Increases attack and defense after fainting during a quest.",
+    "ranks": {
+      "394": "Increases attack +10% (MAX: 20%) and defense +15% (MAX: 30%) after every faint during a quest. (Can be used twice.)"
+    }
+  },
+  "73": {
+    "description": "Increases quest target rewards. (No effect when joining mid-quest.)",
+    "ranks": {
+      "180": "two additional target rewards. (No effect when joining mid-quest.)"
+    }
+  },
+  "4": {
+    "description": "Reduces elemental and unique damage while in the Ruins of Wyveria.",
+    "ranks": {
+      "10": "Reduces elemental and unique damage while in the Ruins of Wyveria."
+    }
+  },
+  "27": {
+    "description": "Increases recovery speed of stamina and red gauge when near Wylkrystals.",
+    "ranks": {
+      "62": "Increases recovery speed of stamina and red gauge by 50% when near Wylkrystals."
+    }
+  },
+  "20": {
+    "description": "Increases the chance of finding rare gathering points.",
+    "ranks": {
+      "47": "Increases the chance of finding rare gathering points."
+    }
+  },
+  "10": {
+    "description": "Temporarily increases attack power when using Melody Effects that affect companions in range.",
+    "ranks": {
+      "22": "Boosts Attack by 10 for 20 Seconds when using Items with AOE Effects/Wide-Range/Horn Melodies/"
+    }
+  },
+  "155": {
+    "description": "Increases attack when inflicted with ailments.",
+    "ranks": {
+      "408": "Increases Attack by 10 when inflicted with ailments."
+    }
+  },
+  "131": {
+    "description": "Boosts attack and lowers defense but lets you survive one lethal hit. Afterwards, boosts defense and res.",
+    "ranks": {
+      "344": "Boosts attack and lowers defense but lets you survive one lethal hit. Afterwards, boosts defense and res."
+    }
+  },
+  "148": {
+    "description": "Increases the amount of honey you gain from gathering points.",
+    "ranks": {
+      "391": "increasing the Honey gathered from 2 to 3-5."
+    }
+  },
+  "139": {
+    "description": "Increases movement speed while crouching, and makes it easier to escape large monsters' detection.",
+    "ranks": {
+      "362": "Increases movement speed while crouching, and makes it easier to escape large monsters' detection."
+    }
+  },
+  "17": {
+    "description": "Temporarily reduces stamina depletion when health is low.",
+    "ranks": {
+      "42": "Temporarily reduces stamina depletion when health is at 40% or lower."
+    }
+  },
+  "132": {
+    "description": null,
+    "ranks": {
+      "345": "Makes it easier to mount monsters and to wound them once mounted."
+    }
+  },
+  "33": {
+    "description": "Regenerates health as you continually attack a monster.",
+    "ranks": {
+      "75": "Regenerates a small amount of your health as you continually attack a monster. (Ranged: 3, Fast: 6, Slow: 15)",
+      "76": "Regenerates your health as you continually attack a monster. Recovery varies by weapon. (Ranged: 5, Fast: 10, Slow: 20)"
+    }
+  },
+  "107": {
+    "description": "Using the 'To Victory!' gesture increases attack temporarily to nearby allies. Greatly effects Palicoes and Support Hunters.",
+    "ranks": {
+      "269": "Using the 'To Victory!' gesture increases true raw attack +3 for 3 minutes to nearby allies. Greatly effects Palicoes and Support Hunters.",
+      "270": "Using the 'To Victory!' gesture increases true raw attack +6 for 3 minutes to nearby allies. Greatly effects Palicoes and Support Hunters."
+    }
+  },
+  "34": {
+    "description": "adds special items to quest rewards.",
+    "ranks": {
+      "77": "During Blossomdance, adds special items to quest rewards. (No effect when joining mid-quest.)",
+      "78": "During Blossomdance, adds special items to quest rewards, and greatly boosts attack and defense."
+    }
+  },
+  "70": {
+    "description": "Temporarily grants attack after a successful Power Clash or Offset attack",
+    "ranks": {
+      "171": "Temporarily increases attack +10 after a successful Power Clash or Offset attack",
+      "172": "Temporarily increases attack +25 after a successful Power Clash or Offset attack"
+    }
+  },
+  "115": {
+    "description": "Extends the duration of the Burst skill and grants attack while Burst is active.",
+    "ranks": {
+      "292": "Extends the duration of the Burst skill +1s and grants attack +3 while Burst is active.",
+      "293": "Extends the duration of the Burst skill +2s and grants attack +10 while Burst is active."
+    }
+  },
+  "11": {
+    "description": "Grants an additional Stamina Gauge.",
+    "ranks": {
+      "23": "Grants an additional Stamina Gauge of 25 stamina.",
+      "24": "Grants an additional long Stamina Gauge of 50 stamina."
+    }
+  },
+  "106": {
+    "description": "Infects you with Frenzy when against large monsters.",
+    "ranks": {
+      "267": "Infects you with Frenzy (+15% Affinity) when against large monsters.",
+      "268": "Infects you with Frenzy and raises attack +10 Raw when against large monsters. Attack +5 Raw power increase upon recovery."
+    }
+  },
+  "54": {
+    "description": "Reduces the damage you take when health is full.",
+    "ranks": {
+      "131": "Reduces the damage you take by 5% when your health is full.",
+      "132": "Reduces the damage you take by 10% when your health is full."
+    }
+  },
+  "26": {
+    "description": "Restores health when destroying a wound on a large monster.",
+    "ranks": {
+      "60": "Restores 25 health when destroying a wound on a large monster.",
+      "61": "Restores 50 health when destroying a wound on a large monster."
+    }
+  },
+  "62": {
+    "description": "Increases attack after recovering from webbed status, frostblight, being pinned, or a Power Clash.",
+    "ranks": {
+      "152": "Increases raw attack +25 after recovering from webbed status, frostblight, being pinned, or a Power Clash.",
+      "153": "Increases raw attack +50 after recovering from webbed status, frostblight, being pinned, or a Power Clash."
+    }
+  },
+  "56": {
+    "description": "Prevents bubbleblight and increases evasion while afflicted with minor bubbleblight.",
+    "ranks": {
+      "135": "Prevents major bubbleblight and increases evasion while afflicted with minor bubbleblight.",
+      "136": "Prevents major bubbleblight and ups evasion while afflicted. Trigger minor bubbleblight by evading many times."
+    }
+  },
+  "149": {
+    "description": "Deals additional damage while the Resentment skill is active.",
+    "ranks": {
+      "392": "Deals 20 additional damage while the Resentment skill is active. (25 on wounds)",
+      "393": "Deals 48 additional damage while the Resentment skill is active. (60 on wounds)"
+    }
+  },
+  "71": {
+    "description": "Chance to deal additional fire damage after landing an attack.",
+    "ranks": {
+      "173": "Chance to deal additional fire damage after landing an attack. (2-12)",
+      "174": "Increases additional fire damage after landing an attack. (5-30)"
+    }
+  },
+  "93": {
+    "description": "extends the activation time of the Latent Power skill. Base 2 minutes",
+    "ranks": {
+      "233": "Extends the activation time of the Latent Power skill by 30s. (2.30 minutes)",
+      "234": "Extends the activation time of the Latent Power skill by 90s. (3.30 minutes)"
+    }
+  },
+  "153": {
+    "description": "Increases defense temporarily when using a specialized tool.",
+    "ranks": {
+      "401": "Increases defense by 25 for 3 minutes when using a specialized tool.",
+      "402": "Increases defense by 50 and resistances by 12 for 3 minutes when using a specialized tool."
+    }
+  },
+  "25": {
+    "description": "Increase attack after eating certain items. (Does Not Stack With Might Seed and Might Pill)",
+    "ranks": {
+      "58": "Grants attack +15 for 2 minutes after eating items such as well-done steak.",
+      "59": "Grants attack +25 for 2 minutes after eating items such as well-done steak."
+    }
+  },
+  "51": {
+    "description": "Allows the Health Gauge to continue to recover up to the max value.",
+    "ranks": {
+      "123": "Allows the Health Gauge to continue to slowly recover up to the max value, even if there is no red portion.",
+      "124": "Allows the Health Gauge to continue to recover up to the max value, even if there is no red portion."
+    }
+  },
+  "86": {
+    "description": "Increases the damage caused by jumping attacks.",
+    "ranks": {
+      "213": "Jumping attack power +10%"
+    }
+  },
+  "47": {
+    "description": "Strengthens explosive attacks like shells, Wyvern's Fire, charge blade phial attacks, and Sticky Ammo.",
+    "ranks": {
+      "111": "Moderately increases each attack and Wyvern's Fire firing speed. Shelling fire attack +30, Sticky and Phial +10% dmg.",
+      "112": "Increases each attack and Wyvern's Fire firing speed. Shelling fire attack +60, Sticky and Phial +20% dmg.",
+      "113": "Greatly increases each attack and Wyvern's Fire firing speed. Shelling fire attack +90, Sticky and Phial +30% dmg."
+    }
+  },
+  "72": {
+    "description": "Increases attack power.",
+    "ranks": {
+      "175": "Attack +3",
+      "176": "Attack +5",
+      "177": "Attack +7",
+      "178": "Attack +2% Bonus: +8",
+      "179": "Attack +4% Bonus: +9"
+    }
+  },
+  "53": {
+    "description": "Extends the range in which ammo and arrows have maximum power.",
+    "ranks": {
+      "128": "Slightly extends range.",
+      "129": "Extends range.",
+      "130": "Greatly extends range."
+    }
+  },
+  "40": {
+    "description": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
+    "ranks": {
+      "96": "Blast buildup +5% Bonus: +10",
+      "97": "Blast buildup +10% Bonus: +20",
+      "98": "Blast buildup +20% Bonus: +50"
+    }
+  },
+  "5": {
+    "description": "Allows you to apply blast coatings.",
+    "ranks": {
+      "11": "Lets you use blast coatings."
+    }
+  },
+  "85": {
+    "description": "Increases attack power when your weapon sharpness is low.",
+    "ranks": {
+      "210": "+5% attack power when your sharpness gauge is yellow or lower.",
+      "211": "+10% attack power when your sharpness gauge is yellow or lower.",
+      "212": "+10% attack power when your sharpness gauge is green or lower."
+    }
+  },
+  "24": {
+    "description": "Increases element power and status buildup for charged attacks.",
+    "ranks": {
+      "55": "Slightly increases elemental damage and status buildup for charged attacks.",
+      "56": "Increases elemental damage and status buildup for charged attacks.",
+      "57": "Greatly increases elemental damage and status buildup for charged attacks."
+    }
+  },
+  "83": {
+    "description": "Increases your power to induce stun when you hit a monster with a hammer's charged attack.",
+    "ranks": {
+      "206": "Activates skill effect."
+    }
+  },
+  "22": {
+    "description": "Increases the damage of critical hits.",
+    "ranks": {
+      "49": "Increases damage dealt by critical hits to 28%.",
+      "50": "Increases damage dealt by critical hits to 31%.",
+      "51": "Increases damage dealt by critical hits to 34%.",
+      "52": "Increases damage dealt by critical hits to 37%.",
+      "53": "Increases damage dealt by critical hits to 40%."
+    }
+  },
+  "103": {
+    "description": "Increases affinity when performing draw attacks. (Not effective while riding.)",
+    "ranks": {
+      "258": "Affinity +50%",
+      "259": "Affinity +75%",
+      "260": "Affinity +100%"
+    }
+  },
+  "82": {
+    "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+    "ranks": {
+      "203": "Slightly increases elemental damage while active. (Ranged: 1.05x, Fast: ~1.05x, Slow: ~1.07x)",
+      "204": "Increases elemental damage while active. (Ranged: 1.1x, Fast: ~1.1x, Slow: ~1.13x)",
+      "205": "Greatly increases elemental damage while active. (Ranged: 1.15x, Fast: ~1.15x, Slow: ~1.2x)"
+    }
+  },
+  "3": {
+    "description": "Increases affinity.",
+    "ranks": {
+      "5": "Affinity +4%",
+      "6": "Affinity +8%",
+      "7": "Affinity +12%",
+      "8": "Affinity +16%",
+      "9": "Affinity +20%"
+    }
+  },
+  "68": {
+    "description": "Increases abnormal status effects (paralysis, poison, sleep, blast) when landing critical hits.",
+    "ranks": {
+      "166": "Slightly increases abnormal status effects when landing critical hits.",
+      "167": "Increases abnormal status effects when landing critical hits.",
+      "168": "Greatly increases abnormal status effects when landing critical hits."
+    }
+  },
+  "41": {
+    "description": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
+    "ranks": {
+      "99": "Dragon attack +40",
+      "100": "Dragon attack +10% Bonus: +50",
+      "101": "Dragon attack +20% Bonus: +60"
+    }
+  },
+  "65": {
+    "description": "Allows you to apply exhaust coatings.",
+    "ranks": {
+      "159": "Lets you use exhaust coatings."
+    }
+  },
+  "50": {
+    "description": "Increases fire element attack power. (Elemental attack power has a maximum limit.)",
+    "ranks": {
+      "120": "Fire attack +40",
+      "121": "Fire attack +10% Bonus: +50",
+      "122": "Fire attack +20% Bonus: +60"
+    }
+  },
+  "60": {
+    "description": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
+    "ranks": {
+      "148": "Slightly increases gauge fill rate and reduces charge times by 5%.",
+      "149": "Moderately increases gauge fill rate and reduces charge times by 10%.",
+      "150": "Increases gauge fill rate and reduces charge times by 15%."
+    }
+  },
+  "59": {
+    "description": "Reduces knockbacks and stamina depletion when guarding.",
+    "ranks": {
+      "145": "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "146": "Decreases the impact of attacks and reduces stamina depletion by 30%.",
+      "147": "Greatly decreases the impact of attacks and reduces stamina depletion by 50%."
+    }
+  },
+  "16": {
+    "description": "Allows you to guard against ordinarily unblockable attacks.",
+    "ranks": {
+      "39": "Reduces damage taken by 30%.",
+      "40": "Reduces damage taken by 50%.",
+      "41": "Reduces damage taken by 80%."
+    }
+  },
+  "119": {
+    "description": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
+    "ranks": {
+      "305": "Weapon sharpness +10",
+      "306": "Weapon sharpness +20",
+      "307": "Weapon sharpness +30",
+      "308": "Weapon sharpness +40",
+      "309": "Weapon sharpness +50"
+    }
+  },
+  "29": {
+    "description": "Increases the effect duration of hunting horn melodies. (Effect lost when you change weapons.)",
+    "ranks": {
+      "64": "Extends Melody Effect duration and increases the chance of larger heals from healing melodies.",
+      "65": "Greatly increases the effect duration of hunting horn melodies."
+    }
+  },
+  "121": {
+    "description": "Increases ice element attack power. (Elemental attack power has a maximum limit.)",
+    "ranks": {
+      "315": "Ice attack +40",
+      "316": "Ice attack +10% Bonus: +50",
+      "317": "Ice attack +20% Bonus: +60"
+    }
+  },
+  "109": {
+    "description": "Improves reloading, and increases the gunlance's shell capacity and charge blade's phial capacity.",
+    "ranks": {
+      "274": "Increases shell and phial reloading speed.",
+      "275": "Increases shell/phial reloading speed. Gunlance loading capacity +1. Charge blade charges 5 phials on yellow gauge."
+    }
+  },
+  "124": {
+    "description": "Prevents your weapon from losing sharpness during critical hits.",
+    "ranks": {
+      "326": "Grants an 80% chance of no sharpness loss while active."
+    }
+  },
+  "136": {
+    "description": "Your attacks are deflected less and deal more damage to hard targets.",
+    "ranks": {
+      "355": "50% chance of your attacks not being deflected, +10% damage to hard targets.",
+      "356": "100% chance of your attacks not being deflected, +15% damage to hard targets.",
+      "357": "100% chance of your attacks not being deflected, +30% damage to hard targets."
+    }
+  },
+  "6": {
+    "description": "Increases the attack power of Normal Ammo, normal arrows, and Flying Swallow Shot.",
+    "ranks": {
+      "12": "Grants 5% Increased Damage of specified ammo and arrows."
+    }
+  },
+  "66": {
+    "description": "For about 11 second increases attack power after executing a perfectly-timed guard.",
+    "ranks": {
+      "160": "Attack +5% while active.",
+      "161": "Attack +10% while active.",
+      "162": "Attack +15% while active."
+    }
+  },
+  "140": {
+    "description": "Increases the bowgun's reload speed and increases the power of bullets when fully loaded.",
+    "ranks": {
+      "363": "Moderately increases bowgun reload speed and +5 raw attack power of ammo when certain conditions are met.",
+      "364": "Increases bowgun reload speed and +10 raw attack power of ammo when certain conditions are met.",
+      "365": "Greatly increases bowgun reload speed and +15 raw attack power of ammo when certain conditions are met."
+    }
+  },
+  "44": {
+    "description": "Allows you to apply paralysis coatings.",
+    "ranks": {
+      "106": "Lets you use paralysis coatings."
+    }
+  },
+  "9": {
+    "description": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
+    "ranks": {
+      "19": "Paralysis buildup +5% Bonus: +10",
+      "20": "Paralysis buildup +10% Bonus: +20",
+      "21": "Paralysis buildup +20% Bonus: +50"
+    }
+  },
+  "94": {
+    "description": "Increases the attack of the bowgun's Pierce Ammo, and the bow's Dragon Piercer and Thousand Dragons.",
+    "ranks": {
+      "235": "Grants 5% Increased Damage of specified ammo and arrows."
+    }
+  },
+  "12": {
+    "description": "Increases the rate of poison buildup. (Poison buildup has a maximum limit.)",
+    "ranks": {
+      "25": "Poison buildup +5% Bonus: +10",
+      "26": "Poison buildup +10% Bonus: +20",
+      "27": "Poison buildup +20% Bonus: +50"
+    }
+  },
+  "21": {
+    "description": "Extends the duration of your poison's effect on monsters.",
+    "ranks": {
+      "48": "Extends the duration of your poison's effect by 20%."
+    }
+  },
+  "116": {
+    "description": "Allows you to apply poison coatings.",
+    "ranks": {
+      "294": "Lets you use poison coatings."
+    }
+  },
+  "104": {
+    "description": "Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.",
+    "ranks": {
+      "261": "Moderately boosts the duration weapons are powered up.",
+      "262": "Boosts the duration weapons are powered up.",
+      "263": "Greatly boosts the duration weapons are powered up."
+    }
+  },
+  "134": {
+    "description": "Weapon sharpness does not decrease for a set time after sharpening.",
+    "ranks": {
+      "349": "Grants no sharpness loss for 30 seconds after activation.",
+      "350": "Grants no sharpness loss for 60 seconds after activation.",
+      "351": "Grants no sharpness loss for 90 seconds after activation."
+    }
+  },
+  "8": {
+    "description": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
+    "ranks": {
+      "16": "Draw attacks deal a small amount of stun damage and gain attack +3.",
+      "17": "Draw attacks deal a medium amount of stun damage and gain attack +5.",
+      "18": "Draw attacks deal a large amount of stun damage and gain attack +7."
+    }
+  },
+  "23": {
+    "description": "Improves light bowgun rapid fire.",
+    "ranks": {
+      "54": "Rapid fire damage +5%"
+    }
+  },
+  "7": {
+    "description": "Increases switch speed and power for switch axes and charge blades.",
+    "ranks": {
+      "13": "Speed +10%",
+      "14": "Speed +20% Morph attack damage +10%",
+      "15": "Speed +30% Morph attack damage +20%"
+    }
+  },
+  "117": {
+    "description": "Prevents your weapon from losing sharpness.",
+    "ranks": {
+      "295": "Grants a 10% chance of no sharpness loss.",
+      "296": "Grants a 25% chance of no sharpness loss.",
+      "297": "Grants a 50% chance of no sharpness loss."
+    }
+  },
+  "78": {
+    "description": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
+    "ranks": {
+      "193": "Sleep buildup +5% Bonus: +10",
+      "194": "Sleep buildup +10% Bonus: +20",
+      "195": "Sleep buildup +20% Bonus: +50"
+    }
+  },
+  "79": {
+    "description": "Allows you to apply sleep coatings.",
+    "ranks": {
+      "196": "Lets you use sleep coatings."
+    }
+  },
+  "39": {
+    "description": "Temporarily increases affinity when wet or when inflicted with bubbleblight. (Wet and bubbleblight effects stack.)",
+    "ranks": {
+      "93": "Affinity +3% when wet, and +7% while afflicted with bubbleblight.",
+      "94": "Affinity +6% when wet, and +14% while afflicted with bubbleblight.",
+      "95": "Affinity +9% when wet, and +21% while afflicted with bubbleblight."
+    }
+  },
+  "36": {
+    "description": "Makes it easier to stun monsters.",
+    "ranks": {
+      "82": "Stun power +20%",
+      "83": "Stun power +30%",
+      "84": "Stun power +40%"
+    }
+  },
+  "69": {
+    "description": "Increases the power of the bowgun's special ammo, and the bow's Dragon Piercer, Thousand Dragons, and Tracer.",
+    "ranks": {
+      "169": "Damage Increases by 10% of specified ammo and arrows.",
+      "170": "Damage Increases by 20% of specified ammo and arrows."
+    }
+  },
+  "126": {
+    "description": "Speeds up weapon sharpening when using a whetstone.",
+    "ranks": {
+      "330": "Removes one cycle from the sharpening process.",
+      "331": "Removes two cycles from the sharpening process."
+    }
+  },
+  "2": {
+    "description": "Increases the attack of the bowgun's Spread Ammo and the bow's Power Shots and Quick Shots.",
+    "ranks": {
+      "4": "Grants 5% Increased Damage of specified ammo and arrows."
+    }
+  },
+  "141": {
+    "description": "Increases certain attacks' ability to exhaust monsters.",
+    "ranks": {
+      "366": "Exhaust power +20%",
+      "367": "Exhaust power +30%",
+      "368": "Exhaust power +40%"
+    }
+  },
+  "137": {
+    "description": "Increases affinity of bowgun ammo/ coatings from the fourth shot and attack of the fourth and sixth shots.",
+    "ranks": {
+      "358": "Increases the attack power by +3 and affinity by 10% of ammo after certain conditions are met.",
+      "359": "Increases the attack power by +6 and affinity by 10% of ammo after certain conditions are met.",
+      "360": "Increases the attack power by +10 and affinity by 10% of ammo after certain conditions are met."
+    }
+  },
+  "127": {
+    "description": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
+    "ranks": {
+      "332": "Thunder attack +40",
+      "333": "Thunder attack +10% Bonus: +50",
+      "334": "Thunder attack +20% Bonus: +60"
+    }
+  },
+  "91": {
+    "description": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
+    "ranks": {
+      "227": "Water attack +40",
+      "228": "Water attack +10% Bonus: +50",
+      "229": "Water attack +20% Bonus: +60"
+    }
+  },
+  "96": {
+    "description": "Chance to deal additional damage after landing an attack.",
+    "ranks": {
+      "241": "Whiteflame Torrent Deals 50 Extra Damage. (When used with Scorcher, does not stack but adds extra fire damage.)"
+    }
+  }
+}
