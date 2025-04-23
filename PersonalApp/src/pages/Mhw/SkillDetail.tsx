@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import styles from "../../css/SkillDetail.module.css";
-import { Skills, Kind } from "../../interfaces/IMhwSkills";
+import { Skills } from "../../interfaces/IMhwSkills";
 import descriptionOverrides from "../../WildsSkillOverrides.json";
 import Loading from "../../Loading";
 
