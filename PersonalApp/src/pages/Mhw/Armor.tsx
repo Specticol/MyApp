@@ -1,10 +1,19 @@
 import { useEffect, useState } from "react";
 import { Armor } from "../../interfaces/IMhwArmor";
 import Loading from "../../Loading";
+import styles from "../../css/Mhwarmor.module.css";
 
 type SlotProps = {
-    Slots: number[]
-}
+    Slots: number[];
+};
+
+type GroupedArmorSet = {
+    name: string;
+    rank: string;
+    totalDefense: number;
+    skills: { [name: string]: number };
+    slotCounts: Record<1 | 2 | 3, number>;
+};
 
 // Fetches APi
 async function fetchArmor(): Promise<Armor[]> {
@@ -12,35 +21,71 @@ async function fetchArmor(): Promise<Armor[]> {
     const data = await response.json();
     return data;
 }
+
 // Shows Slots nicely
 function SlotAmount({ Slots }: SlotProps) {
     let SlotShown: string[] = [];
     for (let i = 0; i < 3; i++) {
-        if (Slots[i] == 1) {
-            SlotShown.push(`\u2460`)
-        } else if (Slots[i] == 2) {
-            SlotShown.push(`\u2461`)
-        } else if (Slots[i] == 3) {
-            SlotShown.push(`\u2462`)
-        } else { SlotShown.push(`\u3280`) }
+        if (Slots[i] === 1) {
+            SlotShown.push(`\u2460`);
+        } else if (Slots[i] === 2) {
+            SlotShown.push(`\u2461`);
+        } else if (Slots[i] === 3) {
+            SlotShown.push(`\u2462`);
+        } else {
+            SlotShown.push(`\u3280`);
+        }
     }
-    return <p>Slots: {SlotShown.map(a => (a))}</p>
-}
-//group armor sets into array
-function groupArmorSets(){
-    
+    return <p className={styles.slotAmount}>Slots: {SlotShown.join(", ")}</p>;
 }
 
+function groupArmorSets(armorArray: Armor[]): GroupedArmorSet[] {
+    const grouped: { [name: string]: GroupedArmorSet } = {};
+
+    for (const piece of armorArray) {
+        const setName = piece.armorSet.name;
+
+        if (!grouped[setName]) {
+            grouped[setName] = {
+                name: setName,
+                rank: piece.rank,
+                totalDefense: 0,
+                skills: {},
+                slotCounts: { 1: 0, 2: 0, 3: 0 },
+            };
+        }
+
+        // Add defense
+        grouped[setName].totalDefense += piece.defense.base;
+
+        // Add skills
+        for (const s of piece.skills) {
+            const skillName = s.skill.name;
+            if (!grouped[setName].skills[skillName]) {
+                grouped[setName].skills[skillName] = 0;
+            }
+            grouped[setName].skills[skillName] += s.level;
+        }
+
+        // Add slots
+        for (const slot of piece.slots) {
+            if (slot >= 1 && slot <= 3) {
+                (grouped[setName].slotCounts[slot as 1 | 2 | 3])++;
+            }
+        }
+    }
+
+    return Object.values(grouped);
+}
 
 export default function MhwArmor() {
-
     const [armor, setArmor] = useState<Armor[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState("");
     const [selectedOption, setSelectedOption] = useState("infoPieces");
+    const [rankFilter, setRankFilter] = useState<"All" | "Low" | "High">("All");
 
-
-    // Loadin Api
+    // Load data
     useEffect(() => {
         setIsLoading(true);
         fetchArmor()
@@ -51,101 +96,119 @@ export default function MhwArmor() {
                 setIsLoading(false);
             });
     }, []);
-    // Searchbar
+
+    // Filtering based on search term and rank
     const filteredArmor = armor.filter((a) => {
         const nameMatch = a.name.toLowerCase().includes(searchTerm.toLowerCase());
         const skillMatch = a.skills.some(skill =>
             skill.skill.name.toLowerCase().includes(searchTerm.toLowerCase())
         );
-        return nameMatch || skillMatch;
+
+        const rankMatch =
+            rankFilter === "All" || a.rank.toLowerCase() === rankFilter.toLowerCase();
+
+        return (nameMatch || skillMatch) && rankMatch;
     });
+
     if (isLoading) {
-        return (
-            <>
-                <Loading />
-            </>
-        )
+        return <Loading />;
     }
 
-
-
-
     return (
-        <>
-            <h2>Armor Page WIP</h2>
-            {/*SearchBar */}
-            <div>
-                <input
-                    type="text"
-                    placeholder="Search by armor or skill name..."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    style={{ padding: "0.5rem", margin: "1rem 0", width: "100%" }}
-                />
-            </div>
-            {/*RadioCheck */}
-            <div>
-                <label>
-                    <input
-                        type="radio"
-                        name="info"
-                        value="infoPieces"
-                        checked={selectedOption === "infoPieces"}
-                        onChange={(e) => setSelectedOption(e.target.value)}
-                    />
-                    Armor Pieces
-                </label>
+        <div className={styles.container}>
+            <h1 className={styles.heading}>Monster Hunter Armors</h1>
 
-                <label>
-                    <input
-                        type="radio"
-                        name="info"
-                        value="infoSets"
-                        checked={selectedOption === "infoSets"}
-                        onChange={(e) => setSelectedOption(e.target.value)}
-                    />
-                    Armor Sets
-                </label>
-            </div>
-            {/*Armor pieces */}
+            <input
+                type="text"
+                placeholder="Search by name..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className={styles.searchBar}
+            />
+
+<div className={styles.buttonContainer}>
+    <div className={styles.filterButtons}>
+        <button
+            className={selectedOption === "infoPieces" ? styles.active : ""}
+            onClick={() => setSelectedOption("infoPieces")}
+        >
+            Armor Pieces
+        </button>
+        <button
+            className={selectedOption === "infoSets" ? styles.active : ""}
+            onClick={() => setSelectedOption("infoSets")}
+        >
+            Armor Sets
+        </button>
+    </div>
+
+    <div className={styles.filterButtonsRight}>
+        <button
+            className={rankFilter === "All" ? styles.active : ""}
+            onClick={() => setRankFilter("All")}
+        >
+            All Ranks
+        </button>
+        <button
+            className={rankFilter === "Low" ? styles.active : ""}
+            onClick={() => setRankFilter("Low")}
+        >
+            Low Rank
+        </button>
+        <button
+            className={rankFilter === "High" ? styles.active : ""}
+            onClick={() => setRankFilter("High")}
+        >
+            High Rank
+        </button>
+    </div>
+</div>
+
             {selectedOption === "infoPieces" && (
                 <div>
-                    {
-                        filteredArmor.map((a, i) => (
-                            <div key={i} style={{ backgroundColor: `var(--bg-color)` }}>
-
-                                <p>{a.kind} piece</p>
-                                <p>Name: {a.name}</p>
-                                <p>Rank: {a.rank}</p>
-                                <p>Defense: {a.defense.base}</p>
-                                <div>{a.skills.map(skill => (
-                                    <p key={skill.skill.id}>Skill: {skill.skill.name}</p>
-                                ))}</div>
-
-                                <p>{<SlotAmount Slots={a.slots} />}</p>
-                            </div>
-                        ))
-                    }
+                    {filteredArmor.map((a, i) => (
+                        <div key={i} className={styles.skillCard}>
+                            <h3>{a.name}</h3>
+                            <p><strong>Type:</strong> {a.kind}</p>
+                            <p><strong>Rank:</strong> {a.rank}</p>
+                            <p><strong>Defense:</strong> {a.defense.base}</p>
+                            <div>{a.skills.map(skill => (
+                                <p key={skill.skill.id}><strong>Skill:</strong> {skill.skill.name} Lv{skill.level}</p>
+                            ))}</div>
+                            <SlotAmount Slots={a.slots} />
+                        </div>
+                    ))}
                 </div>
             )}
-            {/*Armor set */}
 
             {selectedOption === "infoSets" && (
                 <div>
-                    {
-                        filteredArmor.map((a, i) => (
-                            <div key={i} style={{ backgroundColor: `var(--bg-color)` }}>
-
-                                <p>{a.armorSet.name} set</p>
-
-                            </div>
-                        ))
-                    }
+                    {groupArmorSets(filteredArmor).map((set, i) => (
+                        <div key={i} className={styles.skillCard}>
+                            <h3>{set.name} Set</h3>
+                            <p><strong>Rank:</strong> {set.rank}</p>
+                            <p><strong>Total Defense:</strong> {set.totalDefense}</p>
+                            <p><strong>Skills:</strong></p>
+                            <ul>
+                                {Object.entries(set.skills).map(([skillName, level]) => (
+                                    <li key={skillName}>{skillName} Lv{level}</li>
+                                ))}
+                            </ul>
+                            <p><strong>Slots:</strong></p>
+                            <ul>
+                                <li><strong>Lv 1:</strong> {set.slotCounts[1]}</li>
+                                <li><strong>Lv 2:</strong> {set.slotCounts[2]}</li>
+                                <li><strong>Lv 3:</strong> {set.slotCounts[3]}</li>
+                            </ul>
+                        </div>
+                    ))}
                 </div>
             )}
 
+            {filteredArmor.length === 0 && (
+                <p className={styles.noResults}>No matching skills found.</p>
+            )}
+        </div>
+    );
 
-        </>
-    )
 }
-//https://wilds.mhdb.io/en/armor

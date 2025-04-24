@@ -1,0 +1,165 @@
+.container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 3rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.searchBar {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: var(--card-color);
+    color: var(--text-color);
+}
+
+.filterButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.filterButtons button {
+    padding: 0.5rem 1rem;
+    background-color: var(--card-color);
+    color: var(--text-gray-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.filterButtons button:hover {
+    background-color: var(--card-lighter-color);
+    color: var(--text-color);
+}
+
+.filterButtonsRight {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: flex-end;
+}
+
+.filterButtonsRight button {
+    padding: 0.5rem 1rem;
+    background-color: var(--card-color);
+    color: var(--text-gray-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.filterButtonsRight button:hover {
+    background-color: var(--card-lighter-color);
+    color: var(--text-color);
+}
+
+.skillCard {
+    background-color: var(--card-color);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border-left: 5px solid var(--accent-color);
+    transition: transform 0.2s ease;
+}
+
+.skillCard:hover {
+    transform: translateY(-2px);
+    background-color: var(--card-lighter-color);
+}
+
+.skillCard p {
+    margin: 0.3rem 0;
+}
+
+.skillCard h3 {
+    margin-top: 0;
+    color: var(--accent-color);
+}
+
+.slotAmount {
+    font-size: 0.9rem;
+    color: var(--text-gray-color);
+}
+
+.noResults {
+    text-align: center;
+    margin-top: 2rem;
+    font-style: italic;
+    color: var(--text-gray-color);
+}
+
+.active {
+    background-color: var(--card-lighter-color);
+    color: var(--text-color);
+}
+.filterButtons,
+.filterButtonsRight {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: flex-start; /* Or center or space-between depending on your layout preference */
+}
+
+.filterButtons button,
+.filterButtonsRight button {
+    padding: 0.5rem 1rem;
+    background-color: var(--card-color);
+    color: var(--text-gray-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.filterButtons button:hover,
+.filterButtonsRight button:hover {
+    background-color: var(--card-lighter-color);
+    color: var(--text-color);
+}
+.buttonContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between; /* Or center or flex-start based on your design */
+    margin-bottom: 1.5rem;
+}
+
+.filterButtons,
+.filterButtonsRight {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.filterButtons button,
+.filterButtonsRight button {
+    padding: 0.5rem 1rem;
+    background-color: var(--card-color);
+    color: var(--text-gray-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.filterButtons button:hover,
+.filterButtonsRight button:hover {
+    background-color: var(--card-lighter-color);
+    color: var(--text-color);
+}
