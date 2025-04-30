@@ -644,7 +644,7 @@
   "131": {
     "description": "Boosts attack and lowers defense but lets you survive one lethal hit. Afterwards, boosts defense and res.",
     "ranks": {
-      "344": "Boosts attack and lowers defense but lets you survive one lethal hit. Afterwards, boosts defense and res."
+      "344": "Boosts attack by +5% and lowers defense by -5% but lets you survive one lethal hit. Afterwards, boosts defense +5% and res +3."
     }
   },
   "148": {

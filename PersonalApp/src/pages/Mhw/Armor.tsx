@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Armor } from "../../interfaces/IMhwArmor";
 import Loading from "../../Loading";
 import styles from "../../css/Mhwarmor.module.css";
+import { Link } from "react-router-dom";
 
 type SlotProps = {
     Slots: number[];
@@ -11,7 +12,7 @@ type GroupedArmorSet = {
     name: string;
     rank: string;
     totalDefense: number;
-    skills: { [name: string]: number };
+    skills: { [name: string]: number};
     slotCounts: Record<1 | 2 | 3, number>;
 };
 
@@ -126,43 +127,43 @@ export default function MhwArmor() {
                 className={styles.searchBar}
             />
 
-<div className={styles.buttonContainer}>
-    <div className={styles.filterButtons}>
-        <button
-            className={selectedOption === "infoPieces" ? styles.active : ""}
-            onClick={() => setSelectedOption("infoPieces")}
-        >
-            Armor Pieces
-        </button>
-        <button
-            className={selectedOption === "infoSets" ? styles.active : ""}
-            onClick={() => setSelectedOption("infoSets")}
-        >
-            Armor Sets
-        </button>
-    </div>
+            <div className={styles.buttonContainer}>
+                <div className={styles.filterButtons}>
+                    <button
+                        className={selectedOption === "infoPieces" ? styles.active : ""}
+                        onClick={() => setSelectedOption("infoPieces")}
+                    >
+                        Armor Pieces
+                    </button>
+                    <button
+                        className={selectedOption === "infoSets" ? styles.active : ""}
+                        onClick={() => setSelectedOption("infoSets")}
+                    >
+                        Armor Sets
+                    </button>
+                </div>
 
-    <div className={styles.filterButtonsRight}>
-        <button
-            className={rankFilter === "All" ? styles.active : ""}
-            onClick={() => setRankFilter("All")}
-        >
-            All Ranks
-        </button>
-        <button
-            className={rankFilter === "Low" ? styles.active : ""}
-            onClick={() => setRankFilter("Low")}
-        >
-            Low Rank
-        </button>
-        <button
-            className={rankFilter === "High" ? styles.active : ""}
-            onClick={() => setRankFilter("High")}
-        >
-            High Rank
-        </button>
-    </div>
-</div>
+                <div className={styles.filterButtonsRight}>
+                    <button
+                        className={rankFilter === "All" ? styles.active : ""}
+                        onClick={() => setRankFilter("All")}
+                    >
+                        All Ranks
+                    </button>
+                    <button
+                        className={rankFilter === "Low" ? styles.active : ""}
+                        onClick={() => setRankFilter("Low")}
+                    >
+                        Low Rank
+                    </button>
+                    <button
+                        className={rankFilter === "High" ? styles.active : ""}
+                        onClick={() => setRankFilter("High")}
+                    >
+                        High Rank
+                    </button>
+                </div>
+            </div>
 
             {selectedOption === "infoPieces" && (
                 <div>
@@ -172,8 +173,9 @@ export default function MhwArmor() {
                             <p><strong>Type:</strong> {a.kind}</p>
                             <p><strong>Rank:</strong> {a.rank}</p>
                             <p><strong>Defense:</strong> {a.defense.base}</p>
+                            <p><strong>Skills:</strong></p>
                             <div>{a.skills.map(skill => (
-                                <p key={skill.skill.id}><strong>Skill:</strong> {skill.skill.name} Lv{skill.level}</p>
+                                <li key={skill.skill.id}> {skill.skill.name} Lv{skill.level}</li>
                             ))}</div>
                             <SlotAmount Slots={a.slots} />
                         </div>
@@ -189,17 +191,17 @@ export default function MhwArmor() {
                             <p><strong>Rank:</strong> {set.rank}</p>
                             <p><strong>Total Defense:</strong> {set.totalDefense}</p>
                             <p><strong>Skills:</strong></p>
-                            <ul>
+                            <div>
                                 {Object.entries(set.skills).map(([skillName, level]) => (
-                                    <li key={skillName}>{skillName} Lv{level}</li>
+                                   <li key={skillName}>{skillName} Lv{level}</li>
                                 ))}
-                            </ul>
+                            </div>
                             <p><strong>Slots:</strong></p>
-                            <ul>
+                            <div>
                                 <li><strong>Lv 1:</strong> {set.slotCounts[1]}</li>
                                 <li><strong>Lv 2:</strong> {set.slotCounts[2]}</li>
                                 <li><strong>Lv 3:</strong> {set.slotCounts[3]}</li>
-                            </ul>
+                            </div>
                         </div>
                     ))}
                 </div>
