@@ -744,8 +744,8 @@
   "56": {
     "description": "Prevents bubbleblight and increases evasion while afflicted with minor bubbleblight.",
     "ranks": {
-      "135": "Prevents major bubbleblight and increases evasion while afflicted with minor bubbleblight.",
-      "136": "Prevents major bubbleblight and ups evasion while afflicted. Trigger minor bubbleblight by evading many times."
+      "135": "Prevents major bubbleblight and increases evasion while afflicted with minor bubbleblight. (Equivalent to Evade Window 2)",
+      "136": "Prevents major bubbleblight and ups evasion while afflicted. Trigger minor bubbleblight by evading 3 times and lasts for 30 seconds."
     }
   },
   "149": {
